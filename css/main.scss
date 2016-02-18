@@ -1,0 +1,1356 @@
+---
+---
+// $mainfont: sans-serif;
+$mainfont: "helvetica neue", "helvetica", arial, sans-serif;  //'Anonymous Pro', monospace;
+$awhite: #fff;
+$agrey: #000;
+$border-thickness: 3.3px;
+$link-bottomline: $border-thickness solid $awhite;
+$link-bottomline-hover: $border-thickness solid rgba(0,0,0,0);
+$plist-offset-hover: 0.8em;
+$label-border-color: #000;
+
+@mixin filter($filter-type,$filter-amount) { 
+	-webkit-filter: $filter-type+unquote('(#{$filter-amount})');
+	-moz-filter: $filter-type+unquote('(#{$filter-amount})');
+	-ms-filter: $filter-type+unquote('(#{$filter-amount})');
+	-o-filter: $filter-type+unquote('(#{$filter-amount})');
+	filter: $filter-type+unquote('(#{$filter-amount})');
+}
+@mixin border-top-right-bottom($thickness, $color){
+	border-top: $thickness solid $color;
+	border-right: $thickness solid $color;
+	border-bottom: $thickness solid $color;
+}
+@mixin linkOnWhite(){
+	a {
+		color: #000;
+		border-color: #000;
+		&:hover{
+			border-color: #fff;
+		}
+	}
+}
+
+//=============================================================================================
+// General
+//=============================================================================================
+
+body {
+	font-family: $mainfont;
+	max-width: 100%;
+	font-size: 105%;
+}
+
+
+a {
+	transition: border-color 0.3s;
+}
+p{
+	font-family: "helvetica neue", "helvetica", arial, sans-serif;
+	// font-weight: 300;
+	text-transform: none;
+}
+
+.black-text{
+	color: #000;
+}
+
+#preloads {
+	display:none;
+}
+.text-right{
+	text-align: right;
+}
+.underline {
+	text-decoration: underline;
+}
+.img-responsive{
+	min-width: 100%;
+	height: auto;
+}
+.songti-chinese {
+	font-family: "STSong",serif;
+}
+.avoid-overlay-plist-label {
+	margin-top: 90px;
+}
+
+hr{
+	border: $border-thickness #000 solid;
+}
+
+ul{
+	padding-left: 0;
+}
+
+li{
+	list-style: none;
+}
+
+
+//=============================================================================================
+// Floating Open Menu
+//=============================================================================================
+
+
+#floating-open-menu{
+	position: fixed;
+	bottom: 40vh;
+	left: 20vw;
+	background-color: #000;
+	color: #fff;
+	z-index: 100;
+	opacity: 0.5;
+	font-size: 1.4em;
+	transition: opacity 0.5s;
+	padding: 0.5em 1em;
+	text-transform: uppercase;
+	cursor: pointer;
+
+	&:hover{
+		opacity: 1;
+		text-decoration: none;
+	}
+}
+
+.toggle-plist{
+	cursor: pointer;
+}
+
+.label-add-border {
+	.project-page-label {
+		@include border-top-right-bottom($border-thickness, $label-border-color);
+	}
+}
+$plist-label-width: 35px;
+$plist-label-hover-incr: 30px;
+$plist-bg: #fff;
+
+.project-page-label{
+	position: absolute;
+	z-index: 300;
+	top: 30px;
+	left: 0;
+	background-color: $plist-bg;
+	height: 40px;
+	color: #fff;
+	width: $plist-label-width;
+	transition: width 0.5s;
+
+	&:hover{
+		width: $plist-label-width + $plist-label-hover-incr;
+	}
+
+}
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+
+
+
+
+
+//=============================================================================================
+// Content Wrapper
+//=============================================================================================
+
+#content-wrapper{
+
+	width: 100vw;
+	min-height: 100vh;
+
+	.content-container{
+		background-color: #fff;
+		transition: left 0.5s, background-color 0.5s;
+		z-index: 10;
+		top: 0;
+		position: absolute;
+		left: 0;
+		width: 100vw;
+		// text-transform: uppercase;
+		min-height: 100vh;
+		a {
+			color: $awhite;
+			text-decoration: none;
+			border-bottom: $link-bottomline;
+		}
+		a:hover{
+			border-bottom: $link-bottomline-hover;
+		}
+
+		h1{
+
+		}
+
+		.des{
+			text-align: justify
+		}
+
+		.full-size{
+			width: 100vw;
+		}
+
+	}
+
+
+
+
+
+//=============================================================================================
+// Home Page
+//=============================================================================================
+
+
+#home {
+
+	background-color: $awhite;
+	color: $agrey;
+	opacity: 0.95;
+	padding-top: 15em;
+
+	@media (max-width: 767.99999px) {
+		padding-top: 8em;
+	}
+
+
+	canvas {
+		width: 100%;
+		height: 100%;
+		z-index: -100;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	a {
+		color: $agrey;
+		border-bottom: 8px solid $agrey;
+		transition: border-color 0.3s;
+		&:hover {
+			border-bottom: 8px solid $awhite;
+		}
+	}
+	#updates {
+		p {
+			font-size: 12px;
+			a {
+				border-bottom: 1px solid #000;
+				&:hover{
+					border-bottom: 1px solid rgba(0,0,0,0);
+				}
+			}
+		}
+	}
+	.text-logo {
+		font-size: 2em;
+		font-weight: 700;
+			// opacity: 0.4;
+		}
+
+
+		img {
+			width: 100%;
+			margin: 0 0 2em 0;
+			max-width: 70vw;
+			// position: relative;
+			// left: -2em;
+		}
+
+		.body-text {
+			// text-transform: none;
+			$mainTextSize: 0.8em;
+			// font-weight: ;
+			font-size: $mainTextSize;
+			// text-transform: uppercase;
+			font-family: "helvetica",sans-serif;
+
+			a {
+				font-size: 7em;
+				font-weight: 700;
+			}
+
+			@media (max-width: 767.99999px) {
+				// font-size: $mainTextSize / 1.15;
+			}
+		}
+
+
+		#about-modal {
+			visibility:hidden;
+			opacity: 0;
+			width: 100vw;
+			height: 100vh;
+			position: fixed;
+			left: 0;
+			top: 0; 
+			background-color: rgba(255,255,255,0.95);
+			color: #000;
+			font-size: 1.3em;
+
+			-webkit-transition: background-color 0.3s, opacity 0.3s, visibility 0.3s;
+
+			#content {
+				position: absolute;
+				// padding: 10em;
+				max-width: 45%;
+
+				#intro {
+					font-size: 1.2em;
+
+				}
+
+				@media (max-width: 768px){
+					max-width: 90%
+				}
+
+				a {
+					color: #000;
+					border-bottom: 2px solid #000;
+
+					&:hover {
+						border-bottom: 2px solid rgba(0,0,0,0);
+					}
+				}
+			}
+
+			#close {
+				font-size: 4em;
+				position: absolute;
+				right: 2em;
+				top: 2em;
+				cursor: pointer;
+				transition: opacity 0.3s;
+
+				&:hover {
+					opacity: 0.2;
+				}
+
+				@media(max-width:768px){
+					width: 10vw;
+					left: 45vw;
+					// bottom: 10vh;
+					top: 80vh;
+				}
+			}
+		}
+
+	}
+
+
+
+
+
+
+//=============================================================================================
+// Pleashare
+//=============================================================================================
+
+
+#pleashare{
+	background-color: #910735;
+	h1 {
+		font-size: 5em;
+	}
+	&>a>img{
+		width: 6em;
+		position: absolute;
+		right: 2em;
+		top: 2em;
+
+		&:hover{
+			border-bottom: $border-thickness solid #fff;
+		}
+	}
+	#ideation {
+		background-color: #fff;
+		padding: 20% 0;
+
+		img{
+			padding: 4%;
+		}
+
+		hr{
+			border-color: #000;
+		}
+	}
+	hr{
+		border-color: #fff;
+	}
+	.des{
+		min-height: 80vh;
+		color: #fff;
+	}
+	.images-flow {
+
+		}
+	}
+
+
+//=============================================================================================
+// Is Shame Necessary
+//=============================================================================================
+
+
+#isshamenecessary {
+	$ishbgcolor: #12B06B;
+	background-color: $ishbgcolor;
+	color: #fff;
+
+
+	.container {
+		min-height: 100vh;
+		hr{
+			border-color: #fff;
+		}
+	}
+
+	.container-fluid .row{
+
+		background-attachment: fixed;
+		height: 100vh;
+		background-position: center center;
+		background-size: 80%;
+		background-repeat: no-repeat;
+		position: relative;
+
+		&::before {
+			position: absolute;
+			width: 100%;
+			height: 100vh;
+			z-index: 1;
+		}
+
+		h1{
+			z-index: 8;
+			padding: 1em;
+			position: absolute;
+			font-size: 1.5em;
+			left: 1em;
+			bottom: 1em;
+			background-color: $ishbgcolor;
+			color: #fff;
+
+			@media (max-width: 767.99999px) {
+				font-size: 1.2em;
+			}
+		}
+
+	}
+
+	#landing{
+		background-image: url({{ "/assets/isshamenecessary/landing.png" | prepend: site.baseurl }});
+	}
+	#navigation {
+		background-image: url({{ "/assets/isshamenecessary/nav.png" | prepend: site.baseurl }});
+	}
+	#map{
+		background-image: url({{ "/assets/isshamenecessary/map.png" | prepend: site.baseurl }});
+	}
+
+}
+
+//=============================================================================================
+// Exhibit Growth
+//=============================================================================================
+
+
+#exhibit-growth{
+
+	color: #fff;
+
+	hr{
+		border-color: #fff;
+	}
+	#bg-container{
+		min-height: 100vh;
+		background-image: url({{ "/assets/exhibitgrowth/Growth-8669.jpg" | prepend: site.baseurl }});
+		background-position: center center;
+		background-size: cover;
+		transition: background-image 2s;
+
+		.black-bg{
+			background: #000;
+			padding: 2em;
+		}
+
+	}
+
+	#slides {
+		& > div {
+			position: relative;
+
+			&::after {
+				font-size: 5px;
+				content: "mock up picture credit: The Mill+";
+				color: #fff;
+				background: #000;
+				padding: 0.4em;
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				z-index: 5;
+			}
+		}
+	}
+}
+
+//=============================================================================================
+// Printing Code
+//=============================================================================================
+
+#printing-code {
+
+	$main-color: #000;
+
+	color: $main-color;
+	background-color: #fff;
+
+	h1 {
+		font-size: 8em;
+		color: #000;
+		@media (max-width:768px){
+			font-size: 5em;
+		}
+	}
+	h2 {
+		font-size: 1.4em;
+	}
+
+
+	hr{
+		border-color: $main-color;
+	}
+
+	.container-fluid{
+
+			// all other images
+			.row {
+				min-height: 100vh;
+
+				&:nth-child(1) {
+					text-align: center;
+					background: url({{ '/assets/printingcode/onwall_30opa.jpg' | prepend: site.baseurl }}) center center no-repeat;
+					background-size: contain;
+					padding: 10%;
+					margin-bottom: 10em;
+				}
+				img{
+					border: $border-thickness+5px solid #FBF7F5;
+				}
+
+			}
+
+		}	
+
+	}
+
+
+//=============================================================================================
+// Corporate Insight
+//=============================================================================================
+
+
+#corporate-insight {
+	$ci-maincolor: #9FBDCF;
+	background-color: $ci-maincolor;
+	color: #fff;
+
+
+	hr {
+		border-color: #fff;
+	}
+
+	.container-fluid  {
+
+			//first page
+			.row:nth-child(1){
+				min-height: 80vh;
+			}
+
+			//h1 in after-pages
+			.actual-content .row{
+
+				background-color: #577282;
+				text-align: center;
+
+				h1 {
+					padding: 5em 0;
+				}
+			}
+		}
+
+
+	}
+
+//=============================================================================================
+// CCPC 2014
+//=============================================================================================
+
+#ccpc-2014{
+	background-color: #fff;
+	.container-fluid {
+
+		.row {
+
+			#title {
+				background-image: url({{ "/assets/ccpc/ink-upperstroke.png" | prepend: site.baseurl }});
+				background-size: contain;
+				background-position: center center;
+				background-repeat: no-repeat;
+				text-align: center;
+				padding: 15%;
+
+				h1,img {
+					position: relative;
+					top: -20px;
+
+					.songti-chinese {
+						font-size: 0.8em;
+					}
+				}
+
+				h1 {
+					font-size: 2.8em;
+				}
+			}
+
+			&:nth-child(2) {
+				background: #000;
+					// background-image: url({{ '/assets/ccpc/rice_paper.jpg' | prepend: site.baseurl }});
+					// background-size: 20%;
+					// background-position: center center;
+					color: #fff;
+					padding: 9em 0;
+				}
+
+				&:nth-child(3){
+					text-align: center;
+
+					img {
+						width: 60vw;
+						min-width: 25em;
+						margin: 17em auto 3em auto;
+						display: inline-block;
+						border: #D8ECF1 solid 8px;
+						@include filter(grayscale,(100%));
+
+						&:hover{
+							@include filter(grayscale,(0%));
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+
+//=============================================================================================
+// Happiness Notebook
+//=============================================================================================
+
+
+#book-of-happiness{
+	$maincolor: #000;
+	color: $maincolor;
+	hr{ border-color: $maincolor; }
+
+	.container {
+		margin-bottom: 20em;
+		.row {
+			&:nth-child(1) {
+
+
+				div:nth-child(2){
+					img {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+
+	.container-fluid {
+
+		.gallery {
+			img {
+				font-size: 0;
+				width: 25vw;
+				padding:0 !important;
+				margin: 0 !important;
+				display: inline;
+				border: none;
+				border-image-width: 0;
+				-webkit-filter: grayscale(100%);
+				filter: grayscale(100%);
+				@media (max-width:768px){
+					width: 50vw;
+				}
+				transition: -webkit-filter 0.3s, filter 0.3s;
+
+				&:hover {
+					-webkit-filter: grayscale(0%);
+					filter: grayscale(0%);
+				}
+			}
+		}
+
+
+
+	}
+
+}
+
+
+//=============================================================================================
+// ACA
+//=============================================================================================
+
+#art-community-alliance {
+	$maincolor: #333333;
+
+
+	#aca-video-container {
+			// z-index: -10;
+		}
+
+		.container-fluid {
+
+
+			//original
+			#bg {
+				background: url({{ "/assets/aca/original.png" | prepend: site.baseurl }}) center center;
+				background-size: 36%;
+				background-repeat: no-repeat;
+				position: fixed;
+				width: 100vw;
+				height: 100vh;
+				z-index: -100;
+
+				@media (max-width: 767.99999px) {
+					background-size: 70%;
+				}
+
+
+			}
+
+			& > .row:nth-child(2) { // title line
+				min-height: 100vh;
+			}
+
+			& > .row:nth-child(3) { // 
+				background-color: #fff;
+				opacity: 0.8;
+				padding: 10em 0;
+
+				img {
+
+				}
+			}
+
+			& > .row:nth-child(4) { // second intro
+				background: -moz-linear-gradient(top,  rgba(255,255,255,0.8) 0%, rgba(255,255,255,1) 23%, rgba(255,255,255,1) 24%, rgba(255,255,255,1) 100%);
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(23%,rgba(255,255,255,1)), color-stop(24%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1)));
+				background: -webkit-linear-gradient(top,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,1) 23%,rgba(255,255,255,1) 24%,rgba(255,255,255,1) 100%);
+				background: -o-linear-gradient(top,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,1) 23%,rgba(255,255,255,1) 24%,rgba(255,255,255,1) 100%);
+				background: -ms-linear-gradient(top,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,1) 23%,rgba(255,255,255,1) 24%,rgba(255,255,255,1) 100%);
+				background: linear-gradient(to bottom,  rgba(255,255,255,0.8) 0%,rgba(255,255,255,1) 23%,rgba(255,255,255,1) 24%,rgba(255,255,255,1) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccffffff', endColorstr='#ffffff',GradientType=0 );			
+				padding: 20em 0;
+
+			}
+
+
+			& > .row:nth-child(5) { // videos
+				
+				background-color: #fff;
+				text-align: center;
+				&>div {
+					@media (max-width: 767.99999px) {
+						margin-bottom: 4em;
+					}
+
+				}
+				video {
+					width: 80%;
+					margin: 0 auto;
+					border: $border-thickness+2px solid $maincolor;
+				}
+
+				padding-bottom: 20em;
+			}
+		}
+
+	}
+
+
+//=============================================================================================
+// BALANCE
+//=============================================================================================
+
+
+#balance {
+	text-align: center;
+
+	#intro {
+		padding-top: 3em;
+		padding-bottom: 17em;
+
+		h1 {
+			font-size: 7em;
+			@media ( max-width: 768px ){
+				font-size: 5em;
+			}
+		}
+		@include linkOnWhite();
+
+		hr {
+			width: 30%;
+			margin: 0 auto;
+		}
+
+	}
+
+	#intro-posters{ 
+		img{
+			width: 80%;
+			margin: 15em auto;
+		}
+	}
+
+	#learnmore {
+		a {
+			color: #000;
+			border-color: #000;
+
+			&:hover{
+				border-color: #fff;
+			}
+		}
+
+		padding: 4em 0;
+	}
+}
+
+//=============================================================================================
+// Lyte
+//=============================================================================================
+
+#uselyte{
+	color: #fff;
+	position: relative;
+	font-size: 2em;
+		// font-weight: 100;
+
+
+		#black-bg {
+			z-index: -200;
+			background: #957FBA;
+			width: 100vw;
+			height: 100vh;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+
+		#bgvid {
+			z-index: -100;
+			width: 100vw;
+			height: 100vh;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+
+		.container .row{
+			margin-top: 5em;
+
+			div:nth-child(2){
+				font-size: 3em;
+
+				p {
+					margin-top: 0;
+				}
+			}
+
+		}
+	}
+
+
+//=============================================================================================
+// Interlaced Faces
+//=============================================================================================
+
+#interlacedfacespage {
+
+	@include linkOnWhite();
+	h1 {
+		margin-bottom: 0;
+		font-size: 6.3em;
+
+	}
+
+	p{
+		font-size: 1.25em;
+	}
+
+	.row:nth-child(1) {
+
+
+	}
+
+
+}
+
+//=============================================================================================
+// Light Cubes
+//=============================================================================================
+
+#lightcubespage {
+	@include linkOnWhite();
+	
+	h1 {
+		font-size: 7em;
+	}
+	p {
+		max-width: 35em;
+	}
+}
+
+//=============================================================================================
+// Globle
+//=============================================================================================
+
+#globle {
+	.row > div {
+		margin-top: 20vh;
+	}
+}
+
+//=============================================================================================
+// The Black Box
+//=============================================================================================
+
+#theblackboxpage {
+	background-color: #000;
+	@media (max-width: 768px){
+		background-color: #000;
+	}
+	.row {
+		background: url({{ "/assets/theblackbox/box.png" | prepend: site.baseurl }}) center center no-repeat;
+		background-size: contain;
+		h1 {
+			font-size: 7em;
+		}
+		h1, p {
+			padding: 0 0.6em;
+			color: #fff;
+		}
+	}
+}
+
+//=============================================================================================
+// The Introspection Game
+//=============================================================================================
+#tigpage{
+	.container-fluid{
+
+
+		#cover-page {
+			min-height: 100vh;
+			img {
+				height: 188px;
+				display: inline;
+				@media (max-width:768px){
+					height: auto;
+					width: 100%;
+				}
+
+			}
+		}
+
+
+		#title-image {
+
+			img {
+				width: 100%;
+			}
+		}
+
+
+		.arrow {
+				width: 2em;
+				margin: 4em 0;
+		}
+
+		#big-p {
+
+			margin-top: 5em;
+
+			a {
+				color: #000;
+				border-bottom: solid 6px #000;
+				transition: color 0.9s, border-color 0.9s;
+			}
+
+
+			p{
+				font-size: 3em;
+				transition: color 0.9s;
+				letter-spacing: -1px;
+				// line-height: 1.2em;
+				color: #000;
+
+				@media(max-width:768px){
+					font-size: 2.5em;
+					a {
+						color: #000;
+						border-bottom: solid 0.2em #000;
+					}
+				}
+
+			}
+		}
+
+
+	}
+
+	#imagePlaceholder {
+		position: fixed;
+		z-index: 100;
+		width: 15vw;
+		height: 100vh;
+		@media ( max-width: 768px ){
+			width: 80vw;
+			// height: 50vh;
+			left: 10vw;
+			top: 0;
+			z-index: -100;
+		}
+		right: 0;
+		top: 0;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+
+}
+//=============================================================================================
+// The Introspection Game
+//=============================================================================================
+
+#sonnetpage{
+	img {
+		margin:4em 0 3em 0;
+	}
+}
+//=============================================================================================
+// FLOW
+//=============================================================================================
+#flowpage {
+
+	a {
+		color: #000;
+		border-color: #000;
+		&:hover{
+			border-color: #fff;
+		}
+	}
+
+	p {
+		font-size: 1.2em;
+	}
+
+	.row:nth-child(1){
+		h1 {
+			font-size: 5em;
+			position: relative;
+			left: 1em;
+		}
+	}	
+
+	.row:nth-child(3){
+		margin-top: 5em;
+		margin-bottom: 5em;
+		#research {
+			@media ( min-width: 992px) {
+				position: relative;
+				top: -10em;
+			}
+		}
+	}
+}
+
+//=============================================================================================
+// Sukhavati
+//=============================================================================================
+
+#sukhavatipage {
+		.row:nth-child(1) {
+
+		h1 {
+			margin-bottom: 0;
+			font-size: 4em;
+		}
+		h2 {
+			margin-top: 0;
+		}
+		p{
+			font-size: 1.3em;
+		}
+		h6{
+			margin-top: 0.3em;
+		}
+	}
+}
+//=============================================================================================
+// Joe
+//=============================================================================================
+
+
+#joepage {
+	a {
+		color: #000;
+		border-color: #000;
+		&:hover {
+			border-color: #fff;
+		}
+	}
+	p{
+		font-size: 1.4em;
+	}
+	h1{
+		margin-top: 30px;
+		font-size: 5em;
+	}
+	img {
+		width: 3em;
+		margin: 1em 0;
+	}
+}
+//=============================================================================================
+// The Mind Ocean
+//=============================================================================================
+#theoceanpage {
+	font-size: 1.2em;
+	background: #000;
+	height: 100%;
+
+	#background-images {
+		position: absolute !important;
+		width: 100% !important;
+		min-height: 100vh;
+		left: 0;
+		top: 0;
+		z-index: -300;
+
+	}
+
+
+	#cover-page {
+			// background: url({{ "/assets/theocean/projection.jpg" | prepend: site.baseurl }}) center center no-repeat;
+			background-size: cover;
+			min-height: 100vh;
+			color: #fff;
+			padding-top: 2.4em;
+
+			@media (max-width: 768px){
+				padding-top: 6em;
+			}
+
+			hr  {
+				border-color: #fff;
+			}
+
+			#details{
+				padding: 1em 0 0 0;
+				text-align: center;
+			}
+		}
+
+		#cite {
+			padding: 20em;
+			p {
+
+				// font-size: 7em;
+
+			}
+		}
+
+	}
+
+//=============================================================================================
+// Project List
+//=============================================================================================
+
+
+#project-list{
+
+	$project-list-font-size: 2em;
+
+	@mixin list-item-background-image() {
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	text-transform: capitalize;
+	min-height: 100vh;
+	width: 100vw;
+	position: absolute;
+	background: $plist-bg;
+	top: 0;
+	left: 0;
+
+	#legal-info {
+		position: absolute;
+
+		left: 6px;
+		bottom: 6px;
+		font-size: 0.7em;
+
+		h5{
+			margin: 0;
+			font-weight: 500;
+				// text-transform: uppercase;
+			}
+		}
+
+		#for-show{
+			text-align: right;
+			transition: opacity 0.5s;
+		}
+
+		ul {
+			margin-top: 5em;
+
+			h5 {
+				margin: 0.2em auto;
+			}
+
+			li{
+				padding: 5px 0;
+				color: #000;
+				position: relative;
+				left: 0;
+				@include list-item-background-image();
+				transition: padding 0.2s, width 0.5s, height 0.5s;
+
+				font-size: $project-list-font-size;
+
+					// @media (max-width: 767.99999px) {
+					// 	font-size: $project-list-font-size / 1.5;
+					// }
+
+
+					line-height: 1.2em;
+
+
+					&:hover{
+						padding: 5px $plist-offset-hover;
+						color: #fff;
+					}
+				}
+			}
+
+
+
+			a{
+				padding:0;
+
+				p{
+					display: none;
+				}
+				&:hover{
+					text-decoration: none;
+				}
+				#ca {
+					margin-top: 2em;
+					margin-bottom: 2em;
+					// border-top: $border-thickness solid #000;
+				}
+				#ca:hover{
+					background-color: #000;
+				}
+				#isn:hover{
+					background-image: url({{ "/assets/project-list-item-hover-background/isn.jpg" | prepend: site.baseurl }});
+				}			
+				#eg:hover{
+					background-image: url({{ "/assets/project-list-item-hover-background/eg.jpg" | prepend: site.baseurl }});
+				}			
+				#ba:hover{
+					background-image: url({{ "/assets/project-list-item-hover-background/ba.jpg" | prepend: site.baseurl }});
+				}			
+				#aca:hover{
+					background-image: url({{ "/assets/project-list-item-hover-background/aca.jpg" | prepend: site.baseurl }});
+				}			
+				#boh:hover{
+					background-image: url({{ "/assets/project-list-item-hover-background/boh.jpg" | prepend: site.baseurl }});
+				}			
+				#web:hover{
+					background-image: url({{ "/assets/project-list-item-hover-background/web.jpg" | prepend: site.baseurl }});
+				}			
+				#ccpc:hover{
+					background-image: url({{ "/assets/project-list-item-hover-background/ccpc.jpg" | prepend: site.baseurl }});
+				}			
+				#pc:hover{
+					background-image: url({{ "/assets/project-list-item-hover-background/pc.jpg" | prepend: site.baseurl }});
+				}
+				#ps:hover{
+					background-image: url({{ "/assets/project-list-item-hover-background/ps.jpg" | prepend: site.baseurl }});
+				}
+				#lyte:hover{
+					background-image: url({{ "/assets/project-list-item-hover-background/lyte.jpg" | prepend: site.baseurl }});
+				}
+				#ci:hover{
+					background-image: url({{ "/assets/project-list-item-hover-background/ci.jpg" | prepend: site.baseurl }});
+				}
+				#globle:hover {
+					background-image: url({{ "/assets/project-list-item-hover-background/globe.jpg" | prepend: site.baseurl }});
+				}			
+				#joe:hover {
+					background-color: #000;
+				}			
+				#theocean:hover {
+					background-image: url({{ "/assets/project-list-item-hover-background/theocean.jpg" | prepend: site.baseurl }});
+				}			
+				#sonnet:hover {
+					background-image: url({{ "/assets/project-list-item-hover-background/sonnet.png" | prepend: site.baseurl }});
+				}			
+				#box:hover {
+					background-image: url({{ "/assets/project-list-item-hover-background/theblackbox.png" | prepend: site.baseurl }});
+				}			
+				#lightcube:hover {
+					background-image: url({{ "/assets/project-list-item-hover-background/lightcube.png" | prepend: site.baseurl }});
+				}			
+				#flow:hover {
+					background-image: url({{ "/assets/project-list-item-hover-background/flow.jpg" | prepend: site.baseurl }});
+				}			
+				#interlacedfaces:hover {
+					background-image: url({{ "/assets/project-list-item-hover-background/interlacedfaces.png" | prepend: site.baseurl }});
+				}			
+				#sukhavati:hover {
+					background-image: url({{ "/assets/project-list-item-hover-background/sukhavati.png" | prepend: site.baseurl }});
+				}			
+				#tig:hover {
+					background-image: url({{ "/assets/project-list-item-hover-background/tig.jpg" | prepend: site.baseurl }});
+				}
+
+
+				.shortcode {
+					display: none;
+				}
+			}
+
+			.brief{
+				display: none;
+			}
+		}
+
+
+	}

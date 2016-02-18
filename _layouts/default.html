@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <div id="content-wrapper">
+
+      <a id="floating-open-menu" class="toggle-plist">Menu</a>
+
+      {{ content }}
+
+      {% include projectlist.html %}
+
+      
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+</html>
