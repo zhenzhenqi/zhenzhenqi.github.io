@@ -2,7 +2,7 @@
 title: ZZYW
 description: > # this means to ignore newlines until "baseurl:"
   ZZYW is a New York based design & art studio,
-  specializing in the field of interaction / experience / visual identity design.
+  specializing in interaction / experience / visual identity design.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://zhenzhenqi.com/" # the base hostname & protocol for your site
 
