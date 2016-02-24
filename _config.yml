@@ -4,8 +4,13 @@ description: > # this means to ignore newlines until "baseurl:"
   ZZYW is a New York based design & art studio,
   specializing in interaction design.
 baseurl:  # the subpath of your site, e.g. /blog/
-#url: http://zhenzhenqi.github.io # the base hostname & protocol for your site
+url: http://zhenzhenqi.github.io
 
 
 # Build settings
 markdown: kramdown
+
+
+
+
+
