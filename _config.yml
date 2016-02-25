@@ -3,7 +3,7 @@ title: ZZYW
 description: > # this means to ignore newlines until "baseurl:"
   ZZYW is a New York based design & art studio,
   specializing in interaction design.
-baseurl:  # the subpath of your site, e.g. /blog/
+baseurl:  "/" # the subpath of your site, e.g. /blog/
 # Build settings
 markdown: kramdown
 
