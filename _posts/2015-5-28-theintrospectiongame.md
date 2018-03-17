@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "The Introspection Game"
-category: research
+category: art
 tags: programming installation
 shortcode: tig
 permalink: tig

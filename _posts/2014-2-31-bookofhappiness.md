@@ -2,7 +2,7 @@
 layout: default
 permalink: bookofhappiness
 title:  "Book of Happiness"
-category: research
+category: art
 tags: digital_fabrication graphic_design book_design installation
 shortcode: boh
 brief: <span class="underline">A notebook</span>, inside which a person’s happy memories are represented and analyzed using Statistical Regression Analysis and <span class="underline">Parametric Design</span>. Fabrication process involves <span class="underline">laser cutting, sawing, data collection and data visualization</span>. 

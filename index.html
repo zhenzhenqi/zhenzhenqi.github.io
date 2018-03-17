@@ -1,75 +1,89 @@
 ---
 layout: default
 ---
-<div class="content-container label-add-border" id="home">
-    {% include toggle-plist.html %}
-    <script type="text/javascript" src=/js/homepage.js></script>
-    <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-2 col-md-4 col-md-offset-2 left-col text-right">
+<div id="project-list">
+
+    <div id="legal-info">
+        <div><h5>All rights reserved © Zhenzhen Qi, 2017</h5></div>
+    </div>
 
 
-        <div>Hello, this is</div>
-        <div class="text-logo">ZZYW Studio</div>
-
-        <div class="row" id="updates">
-            <div class="col-xs-10">
-            
-                <!-- <h6>News/Update</h6>
-                <p>We present you <strong>Just Another Vendor</strong> at the <a href="http://knockdown.center/event/internet-yami-ichi/" target="_blank">Internet Yami-Ichi</a> at
-                <a href="https://www.google.com/maps/place/Knockdown+Center/@40.7151586,-73.9135651,15z/data=!4m2!3m1!1s0x0:0xe6dd93729a094800?sa=X&ved=0CI4BEPwSMBBqFQoTCPHFnNiLyscCFUsnHgodlJYGgA" target="_blank">Knockdown Center</a> at September 12, 12 – 8pm<br>
-                Just Another Vendor will be selling:<br>
-                <ul>
-                    <li><strong> - Just Another Internet</strong><br>
-                    A Chrome extension lets you experience the unique Internet of China
-                    </li>
-                    <li><strong> - Just Another Virtual Reality</strong><br>
-                    The participant will be wearing a VR headset, and be encouraged to freely explore the virtual scene through the headset. At the end of the experience, she/he will be given a printed poster that servers as a physical manifestation of the virtual exploration.</li>
-                    <li><strong> - Just Another Facebook Friend</strong><br>
-                    A Chrome extension that introduces you a new friend Joe. His nihilism nature makes him an excellent Facebook browsing companion.
-                    </li>
-                </ul> -->
-
-                </p>
-
-            </div>
+    <!-- short des -->
+    <div class="hidden-xs hidden-sm col-md-2 col-md-offset-0">
+        <div id="for-show">
         </div>
-
-        <!-- <img src="{{ "/assets/home/studio.png" | prepend: site.baseurl }}" class="img-responsive"> -->
+        {% for post in site.posts %}
+            <div class="brief">
+                <p>{{ post.brief }}</p>
+            </div>
+        {% endfor %}
     </div>
 
-    <div class="body-text col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-2 col-md-4 col-md-offset-0 right-col">
-                <a class="toggle-plist">Works</a> 
-                <br>
-                <a href="mailto:hi@zzyw.media">Contact</a> 
-                <br>
-                <a href="#" id="open-about-modal">About</a>
-    </div>
+    <!-- the art list -->
+    <ul class="col-xs-12 col-sm-3 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0">
+<!--        <h5>Arts</h5>-->
+        {% for post in site.posts %}
+            {% if post.published != false %}
+            {% if post.category contains 'art' %}
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <li id="{{ post.shortcode }}">
+                    {{ post.title }}
+                </li>
+                <p>{{ forloop.index0 }}</p>
+                <!-- just for js pick up target -->
+                <p class="shortcode">{{ post.shortcode }}</p>
+            </a>
+            {% endif %}
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+    <!-- the research list -->
+    <ul class="col-xs-12 col-sm-3 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0">
+<!--        <h5>Research</h5>-->
+        {% for post in site.posts %}
+            {% if post.published != false %}
+            {% if post.category contains 'research' %}
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <li id="{{ post.shortcode }}">
+                    {{ post.title }}
+                </li>
+                <p>{{ forloop.index0 }}</p>
+                <!-- just for js pick up target -->
+                <p class="shortcode">{{ post.shortcode }}</p>
+            </a>
+            {% endif %}
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+
+    <!-- the design list -->
+    <ul class="col-xs-12 col-sm-3 col-sm-offset-0 col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0">
+<!--        <h5>Design</h5>-->
+        {% for post in site.posts %}
+            {% if post.published != false %}
+            {% if post.category contains 'design' %}
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <li id="{{ post.shortcode }}">
+                    {{ post.title }}
+                </li>
+                <p>{{ forloop.index0 }}</p>
+                <!-- just for js pick up target -->
+                <p class="shortcode">{{ post.shortcode }}</p>
+            </a>
+            {% endif %}
+            {% endif %}
+        {% endfor %}
+    </ul>
 
 
 
-<div id="about-modal">
-    <div id="content"><span id="intro">
-        <h6>What is ZZYW?</h6>
-        ZZYW studio is a New York based creative studio, founded by Yang Wang & Zhenzhen Qi.<br><br>
-    They are coders, designers, artists, and researchers.
-    </span><br><br>
 
-
-    <h6>Who is ZZ & YW?</h6>
-    <a href="http://yangwang.info" target="_blank">Yang Wang</a><br>
-    Designer, Coder, New Media Artist<br>
-    <br>
-    <a href="http://zhenzhenqi.info" target="_blank">Zhenzhen Qi</a><br>
-    Designer, New Media Artist, Coder, Educator
-
-
-    </div>
-
-    <div href="#about"id="close">x</div>
+    <div id="preloads"> <img src="{{ " /assets/project-list-item-hover-background/isn.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/eg.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/ba.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/aca.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/ccpc.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/web.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/ps.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/pc.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/lyte.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/ci.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/boh.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/globe.jpg " | prepend: site.baseurl }}"> </div>
+    
+    
 </div>
 
-
-
-</div>
-
-
-
+<script src=""></script>
+<script src="js/homepage.js"></script>

@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "printing code"
-category: research
+category: art
 tags: graphic_desigh interactive_programming
 shortcode: pc
 permalink: printingcode

@@ -110,7 +110,7 @@ li {
       text-decoration: none;
       border-bottom: 3.3px solid #fff; }
     #content-wrapper .content-container a:hover {
-      border-bottom: 3.3px solid transparent; }
+      border-bottom: 3.3px solid rgba(0, 0, 0, 0); }
     #content-wrapper .content-container .des {
       text-align: justify; }
     #content-wrapper .content-container .full-size {
@@ -141,7 +141,7 @@ li {
       #content-wrapper #home #updates p a {
         border-bottom: 1px solid #000; }
         #content-wrapper #home #updates p a:hover {
-          border-bottom: 1px solid transparent; }
+          border-bottom: 1px solid rgba(0, 0, 0, 0); }
     #content-wrapper #home .text-logo {
       font-size: 2em;
       font-weight: 700; }
@@ -179,7 +179,7 @@ li {
           color: #000;
           border-bottom: 2px solid #000; }
           #content-wrapper #home #about-modal #content a:hover {
-            border-bottom: 2px solid transparent; }
+            border-bottom: 2px solid rgba(0, 0, 0, 0); }
       #content-wrapper #home #about-modal #close {
         font-size: 4em;
         position: absolute;
