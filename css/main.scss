@@ -1,14 +1,11 @@
 ---
 ---
 
-
-
-
-
 $mainfont: 'Inconsolata', monospace, sans-serif;  //'Anonymous Pro', monospace;
 $awhite: #fff;
 $agrey: rgb(59, 255, 142);
 $green: rgb(0, 255, 0);
+$purple: rgb(255, 0, 240);
 $border-thickness: 3.3px;
 $link-bottomline: $border-thickness solid $awhite;
 $link-bottomline-hover: $border-thickness solid rgba(0,0,0,0);
@@ -57,10 +54,6 @@ body {
 }
 
 
-a {
-	transition: border-color 0.3s;
-    
-}
 
 
 p{
@@ -132,7 +125,6 @@ li{
 		left: 0;
 		top: 0;
 	}
-
 	
 }
 
@@ -766,7 +758,7 @@ li{
 //=============================================================================================
 
 #project-list{
-    color: $green;
+    color: $purple;
 	$project-list-font-size: 2em;
 	text-transform: capitalize;
 	min-height: 100vh;
@@ -806,7 +798,8 @@ li{
                 line-height: 1.2em;
 
 					&:hover{
-                        text-decoration: none;
+                        text-decoration: underline;
+                        text-decoration-color: $green;
 					}
 				}
 			}

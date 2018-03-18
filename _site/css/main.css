@@ -11,9 +11,6 @@ body {
   max-width: 100%;
   font-size: 105%; }
 
-a {
-  transition: border-color 0.3s; }
-
 p {
   text-transform: none; }
 
@@ -388,7 +385,7 @@ li {
     padding: 20em; }
 
 #project-list {
-  color: lime;
+  color: #ff00f0;
   text-transform: capitalize;
   min-height: 100vh;
   width: 100vw;
@@ -416,7 +413,8 @@ li {
       font-size: 2em;
       line-height: 1.2em; }
       #project-list ul li:hover {
-        text-decoration: none; }
+        text-decoration: underline;
+        text-decoration-color: lime; }
   #project-list a {
     padding: 0; }
     #project-list a p {
