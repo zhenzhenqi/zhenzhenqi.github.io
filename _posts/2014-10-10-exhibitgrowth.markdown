@@ -9,7 +9,6 @@ permalink: exhibitgrowth
 ---
 
 <div class="content-container" id="exhibit-growth">
-{% include toggle-plist.html %}
 	<div class="container-fluid" id="bg-container">
 
 		<div class="row avoid-overlay-plist-label">

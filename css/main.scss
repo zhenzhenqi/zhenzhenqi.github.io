@@ -1,9 +1,14 @@
 ---
 ---
-// $mainfont: sans-serif;
-$mainfont: "helvetica neue", "helvetica", arial, sans-serif;  //'Anonymous Pro', monospace;
+
+
+
+
+
+$mainfont: 'Inconsolata', monospace, sans-serif;  //'Anonymous Pro', monospace;
 $awhite: #fff;
-$agrey: #000;
+$agrey: rgb(59, 255, 142);
+$green: rgb(0, 255, 0);
 $border-thickness: 3.3px;
 $link-bottomline: $border-thickness solid $awhite;
 $link-bottomline-hover: $border-thickness solid rgba(0,0,0,0);
@@ -36,6 +41,15 @@ $label-border-color: #000;
 // General
 //=============================================================================================
 
+#zzContainer{
+    z-index: -100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;    
+}
+
 body {
 	font-family: $mainfont;
 	max-width: 100%;
@@ -46,8 +60,9 @@ body {
 a {
 	transition: border-color 0.3s;
 }
+
+
 p{
-	font-family: "helvetica neue", "helvetica", arial, sans-serif;
 	// font-weight: 300;
 	text-transform: none;
 }
@@ -89,112 +104,6 @@ li{
 }
 
 
-//=============================================================================================
-// Floating Open Menu
-//=============================================================================================
-
-
-#floating-open-menu{
-	position: fixed;
-	bottom: 40vh;
-	left: 20vw;
-	background-color: #000;
-	color: #fff;
-	z-index: 100;
-	opacity: 0.5;
-	font-size: 1.4em;
-	transition: opacity 0.5s;
-	padding: 0.5em 1em;
-	text-transform: uppercase;
-	cursor: pointer;
-
-	&:hover{
-		opacity: 1;
-		text-decoration: none;
-	}
-}
-
-.toggle-plist{
-	cursor: pointer;
-}
-
-.label-add-border {
-	.project-page-label {
-		@include border-top-right-bottom($border-thickness, $label-border-color);
-	}
-}
-$plist-label-width: 35px;
-$plist-label-hover-incr: 30px;
-$plist-bg: #fff;
-
-.project-page-label{
-	position: absolute;
-	z-index: 300;
-	top: 30px;
-	left: 0;
-	background-color: $plist-bg;
-	height: 40px;
-	color: #fff;
-	width: $plist-label-width;
-	transition: width 0.5s;
-
-	&:hover{
-		width: $plist-label-width + $plist-label-hover-incr;
-	}
-
-}
-
-.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
-.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-
-
-
-
-
-
-
-//=============================================================================================
-// Content Wrapper
-//=============================================================================================
-
-#content-wrapper{
-
-	width: 100vw;
-	min-height: 100vh;
-
-	.content-container{
-		background-color: #fff;
-		transition: left 0.5s, background-color 0.5s;
-		z-index: 100;
-		top: 0;
-		position: absolute;
-		left: 0;
-		width: 100vw;
-		// text-transform: uppercase;
-		min-height: 100vh;
-		a {
-			color: $awhite;
-			text-decoration: none;
-			border-bottom: $link-bottomline;
-		}
-		a:hover{
-			border-bottom: $link-bottomline-hover;
-		}
-
-		h1{
-
-		}
-
-		.des{
-			text-align: justify
-		}
-
-		.full-size{
-			width: 100vw;
-		}
-
-	}
-
 
 
 
@@ -205,9 +114,7 @@ $plist-bg: #fff;
 
 
 #home {
-
-	background-color: $awhite;
-	color: $agrey;
+	color: $green;
 	opacity: 0.95;
 	padding-top: 15em;
 
@@ -226,167 +133,16 @@ $plist-bg: #fff;
 	}
 
 	a {
-		color: $agrey;
-		border-bottom: 8px solid $agrey;
+		color: $green;
+		border-bottom: 8px solid $green;
 		transition: border-color 0.3s;
 		&:hover {
 			border-bottom: 8px solid $awhite;
 		}
 	}
-	#updates {
-		p {
-			font-size: 12px;
-			a {
-				border-bottom: 1px solid #000;
-				&:hover{
-					border-bottom: 1px solid rgba(0,0,0,0);
-				}
-			}
-		}
-	}
-	.text-logo {
-		font-size: 2em;
-		font-weight: 700;
-			// opacity: 0.4;
-		}
+	
+}
 
-
-		img {
-			width: 100%;
-			margin: 0 0 2em 0;
-			max-width: 70vw;
-			// position: relative;
-			// left: -2em;
-		}
-
-		.body-text {
-			// text-transform: none;
-			$mainTextSize: 0.8em;
-			// font-weight: ;
-			font-size: $mainTextSize;
-			// text-transform: uppercase;
-			font-family: "helvetica",sans-serif;
-
-			a {
-				font-size: 7em;
-				font-weight: 700;
-			}
-
-			@media (max-width: 767.99999px) {
-				// font-size: $mainTextSize / 1.15;
-			}
-		}
-
-
-		#about-modal {
-			visibility:hidden;
-			opacity: 0;
-			width: 100vw;
-			height: 100vh;
-			position: fixed;
-			left: 0;
-			top: 0; 
-			background-color: rgba(255,255,255,0.95);
-			color: #000;
-			font-size: 1.3em;
-
-			-webkit-transition: background-color 0.3s, opacity 0.3s, visibility 0.3s;
-
-			#content {
-				position: absolute;
-				// padding: 10em;
-				max-width: 45%;
-
-				#intro {
-					font-size: 1.2em;
-
-				}
-
-				@media (max-width: 768px){
-					max-width: 90%
-				}
-
-				a {
-					color: #000;
-					border-bottom: 2px solid #000;
-
-					&:hover {
-						border-bottom: 2px solid rgba(0,0,0,0);
-					}
-				}
-			}
-
-			#close {
-				font-size: 4em;
-				position: absolute;
-				right: 2em;
-				top: 2em;
-				cursor: pointer;
-				transition: opacity 0.3s;
-
-				&:hover {
-					opacity: 0.2;
-				}
-
-				@media(max-width:768px){
-					width: 10vw;
-					left: 45vw;
-					// bottom: 10vh;
-					top: 80vh;
-				}
-			}
-		}
-
-	}
-
-
-
-
-
-
-//=============================================================================================
-// Pleashare
-//=============================================================================================
-
-
-#pleashare{
-	background-color: #910735;
-	h1 {
-		font-size: 5em;
-	}
-	&>a>img{
-		width: 6em;
-		position: absolute;
-		right: 2em;
-		top: 2em;
-
-		&:hover{
-			border-bottom: $border-thickness solid #fff;
-		}
-	}
-	#ideation {
-		background-color: #fff;
-		padding: 20% 0;
-
-		img{
-			padding: 4%;
-		}
-
-		hr{
-			border-color: #000;
-		}
-	}
-	hr{
-		border-color: #fff;
-	}
-	.des{
-		min-height: 80vh;
-		color: #fff;
-	}
-	.images-flow {
-
-		}
-	}
 
 
 //=============================================================================================
@@ -548,104 +304,7 @@ $plist-bg: #fff;
 	}
 
 
-//=============================================================================================
-// Corporate Insight
-//=============================================================================================
 
-
-#corporate-insight {
-	$ci-maincolor: #9FBDCF;
-	background-color: $ci-maincolor;
-	color: #fff;
-
-
-	hr {
-		border-color: #fff;
-	}
-
-	.container-fluid  {
-
-			//first page
-			.row:nth-child(1){
-				min-height: 80vh;
-			}
-
-			//h1 in after-pages
-			.actual-content .row{
-
-				background-color: #577282;
-				text-align: center;
-
-				h1 {
-					padding: 5em 0;
-				}
-			}
-		}
-
-
-	}
-
-//=============================================================================================
-// CCPC 2014
-//=============================================================================================
-
-#ccpc-2014{
-	background-color: #fff;
-	.container-fluid {
-
-		.row {
-
-			#title {
-				background-image: url({{ "/assets/ccpc/ink-upperstroke.png" | prepend: site.baseurl }});
-				background-size: contain;
-				background-position: center center;
-				background-repeat: no-repeat;
-				text-align: center;
-				padding: 15%;
-
-				h1,img {
-					position: relative;
-					top: -20px;
-
-					.songti-chinese {
-						font-size: 0.8em;
-					}
-				}
-
-				h1 {
-					font-size: 2.8em;
-				}
-			}
-
-			&:nth-child(2) {
-				background: #000;
-					// background-image: url({{ '/assets/ccpc/rice_paper.jpg' | prepend: site.baseurl }});
-					// background-size: 20%;
-					// background-position: center center;
-					color: #fff;
-					padding: 9em 0;
-				}
-
-				&:nth-child(3){
-					text-align: center;
-
-					img {
-						width: 60vw;
-						min-width: 25em;
-						margin: 17em auto 3em auto;
-						display: inline-block;
-						border: #D8ECF1 solid 8px;
-						@include filter(grayscale,(100%));
-
-						&:hover{
-							@include filter(grayscale,(0%));
-						}
-					}
-				}
-
-			}
-		}
-	}
 
 
 //=============================================================================================
@@ -835,51 +494,6 @@ $plist-bg: #fff;
 	}
 }
 
-//=============================================================================================
-// Lyte
-//=============================================================================================
-
-#uselyte{
-	color: #fff;
-	position: relative;
-	font-size: 2em;
-		// font-weight: 100;
-
-
-		#black-bg {
-			z-index: -200;
-			background: #957FBA;
-			width: 100vw;
-			height: 100vh;
-			position: absolute;
-			top: 0;
-			left: 0;
-		}
-
-		#bgvid {
-			z-index: -100;
-			width: 100vw;
-			height: 100vh;
-			position: absolute;
-			left: 0;
-			top: 0;
-		}
-
-
-		.container .row{
-			margin-top: 5em;
-
-			div:nth-child(2){
-				font-size: 3em;
-
-				p {
-					margin-top: 0;
-				}
-			}
-
-		}
-	}
-
 
 //=============================================================================================
 // Interlaced Faces
@@ -906,30 +520,7 @@ $plist-bg: #fff;
 
 }
 
-//=============================================================================================
-// Light Cubes
-//=============================================================================================
 
-#lightcubespage {
-	@include linkOnWhite();
-	
-	h1 {
-		font-size: 7em;
-	}
-	p {
-		max-width: 35em;
-	}
-}
-
-//=============================================================================================
-// Globle
-//=============================================================================================
-
-#globle {
-	.row > div {
-		margin-top: 20vh;
-	}
-}
 
 //=============================================================================================
 // The Black Box
@@ -1040,15 +631,7 @@ $plist-bg: #fff;
 
 
 }
-//=============================================================================================
-// The Introspection Game
-//=============================================================================================
 
-#sonnetpage{
-	img {
-		margin:4em 0 3em 0;
-	}
-}
 //=============================================================================================
 // FLOW
 //=============================================================================================
@@ -1152,6 +735,7 @@ $plist-bg: #fff;
 	}
 
 
+
 	#cover-page {
 			// background: url({{ "/assets/theocean/projection.jpg" | prepend: site.baseurl }}) center center no-repeat;
 			background-size: cover;
@@ -1188,22 +772,14 @@ $plist-bg: #fff;
 // Project List
 //=============================================================================================
 
-
 #project-list{
-
+    color: $green;
 	$project-list-font-size: 2em;
-
-	@mixin list-item-background-image() {
-		background-position: center center;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-
 	text-transform: capitalize;
 	min-height: 100vh;
 	width: 100vw;
 	position: absolute;
-	background: $plist-bg;
+	background: transparent;
 	top: 0;
 	left: 0;
 
@@ -1216,15 +792,9 @@ $plist-bg: #fff;
 
 		h5{
 			margin: 0;
-			font-weight: 500;
-				// text-transform: uppercase;
 			}
 		}
 
-		#for-show{
-			text-align: right;
-			transition: opacity 0.5s;
-		}
 
 		ul {
 			margin-top: 5em;
@@ -1234,123 +804,41 @@ $plist-bg: #fff;
 			}
 
 			li{
+                color: $green;
 				padding: 5px 0;
-				color: #000;
 				position: relative;
 				left: 0;
-				@include list-item-background-image();
 				transition: padding 0.2s, width 0.5s, height 0.5s;
-
 				font-size: $project-list-font-size;
-
-					// @media (max-width: 767.99999px) {
-					// 	font-size: $project-list-font-size / 1.5;
-					// }
-
-
-					line-height: 1.2em;
-
+                line-height: 1.2em;
 
 					&:hover{
-						padding: 5px $plist-offset-hover;
-						color: #fff;
+//						padding: 5px $plist-offset-hover;
+//                        background-color: yellow;
+                        text-decoration: line-through;
 					}
 				}
 			}
 
 
 
-			a{
-				padding:0;
+        a{
+            padding:0;
 
-				p{
-					display: none;
-				}
-				&:hover{
-					text-decoration: none;
-				}
-				#ca {
-					margin-top: 2em;
-					margin-bottom: 2em;
-					// border-top: $border-thickness solid #000;
-				}
-				#ca:hover{
-					background-color: #000;
-				}
-				#isn:hover{
-					background-image: url({{ "/assets/project-list-item-hover-background/isn.jpg" | prepend: site.baseurl }});
-				}			
-				#eg:hover{
-					background-image: url({{ "/assets/project-list-item-hover-background/eg.jpg" | prepend: site.baseurl }});
-				}			
-				#ba:hover{
-					background-image: url({{ "/assets/project-list-item-hover-background/ba.jpg" | prepend: site.baseurl }});
-				}			
-				#aca:hover{
-					background-image: url({{ "/assets/project-list-item-hover-background/aca.jpg" | prepend: site.baseurl }});
-				}			
-				#boh:hover{
-					background-image: url({{ "/assets/project-list-item-hover-background/boh.jpg" | prepend: site.baseurl }});
-				}			
-				#web:hover{
-					background-image: url({{ "/assets/project-list-item-hover-background/web.jpg" | prepend: site.baseurl }});
-				}			
-				#ccpc:hover{
-					background-image: url({{ "/assets/project-list-item-hover-background/ccpc.jpg" | prepend: site.baseurl }});
-				}			
-				#pc:hover{
-					background-image: url({{ "/assets/project-list-item-hover-background/pc.jpg" | prepend: site.baseurl }});
-				}
-				#ps:hover{
-					background-image: url({{ "/assets/project-list-item-hover-background/ps.jpg" | prepend: site.baseurl }});
-				}
-				#lyte:hover{
-					background-image: url({{ "/assets/project-list-item-hover-background/lyte.jpg" | prepend: site.baseurl }});
-				}
-				#ci:hover{
-					background-image: url({{ "/assets/project-list-item-hover-background/ci.jpg" | prepend: site.baseurl }});
-				}
-				#globle:hover {
-					background-image: url({{ "/assets/project-list-item-hover-background/globe.jpg" | prepend: site.baseurl }});
-				}			
-				#joe:hover {
-					background-color: #000;
-				}			
-				#theocean:hover {
-					background-image: url({{ "/assets/project-list-item-hover-background/theocean.jpg" | prepend: site.baseurl }});
-				}			
-				#sonnet:hover {
-					background-image: url({{ "/assets/project-list-item-hover-background/sonnet.png" | prepend: site.baseurl }});
-				}			
-				#box:hover {
-					background-image: url({{ "/assets/project-list-item-hover-background/theblackbox.png" | prepend: site.baseurl }});
-				}			
-				#lightcube:hover {
-					background-image: url({{ "/assets/project-list-item-hover-background/lightcube.png" | prepend: site.baseurl }});
-				}			
-				#flow:hover {
-					background-image: url({{ "/assets/project-list-item-hover-background/flow.jpg" | prepend: site.baseurl }});
-				}			
-				#interlacedfaces:hover {
-					background-image: url({{ "/assets/project-list-item-hover-background/interlacedfaces.png" | prepend: site.baseurl }});
-				}			
-				#sukhavati:hover {
-					background-image: url({{ "/assets/project-list-item-hover-background/sukhavati.png" | prepend: site.baseurl }});
-				}			
-				#tig:hover {
-					background-image: url({{ "/assets/project-list-item-hover-background/tig.jpg" | prepend: site.baseurl }});
-				}
+            p{
+                display: none;
+            }
+
+            .shortcode {
+                display: none;
+            }
+        }
+
+        .brief{
+            display: none;
+        }
+}
 
 
-				.shortcode {
-					display: none;
-				}
-			}
+	
 
-			.brief{
-				display: none;
-			}
-		}
-
-
-	}

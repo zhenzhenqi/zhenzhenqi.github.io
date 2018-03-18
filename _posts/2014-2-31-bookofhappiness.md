@@ -9,7 +9,6 @@ brief: <span class="underline">A notebook</span>, inside which a person’s happ
 ---
 
 <div class="content-container label-add-border" id="book-of-happiness">
-	{% include toggle-plist.html %}
 
 	<div class="container">
 

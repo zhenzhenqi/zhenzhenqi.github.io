@@ -10,8 +10,6 @@ permalink: /isshamenecessary
 
 <div class="content-container" id="isshamenecessary">
 
-    {% include toggle-plist.html %}
-
 
     <!-- header -->
 	<div class="container avoid-overlay-plist-label">

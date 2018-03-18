@@ -6,16 +6,13 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Mar 2018 21:42:20 -0400</pubDate>
-    <lastBuildDate>Fri, 16 Mar 2018 21:42:20 -0400</lastBuildDate>
+    <pubDate>Sun, 18 Mar 2018 15:10:07 -0400</pubDate>
+    <lastBuildDate>Sun, 18 Mar 2018 15:10:07 -0400</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
         <title>The Introspection Game</title>
         <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;tigpage&quot;&gt;
-	&lt;div class=&quot;project-page-label toggle-plist&quot;&gt;
-&lt;/div&gt;
-
 
 	&lt;div id=&quot;imagePlaceholder&quot;&gt;&lt;/div&gt;
 
@@ -84,9 +81,6 @@
       <item>
         <title>The Mind Ocean</title>
         <description>&lt;div class=&quot;content-container&quot; id=&quot;theoceanpage&quot;&gt;
-	&lt;div class=&quot;project-page-label toggle-plist&quot;&gt;
-&lt;/div&gt;
-
 
 	&lt;div class=&quot;container-fluid&quot;&gt;
 
@@ -165,9 +159,6 @@
       <item>
         <title>exhibit: growth</title>
         <description>&lt;div class=&quot;content-container&quot; id=&quot;exhibit-growth&quot;&gt;
-&lt;div class=&quot;project-page-label toggle-plist&quot;&gt;
-&lt;/div&gt;
-
 	&lt;div class=&quot;container-fluid&quot; id=&quot;bg-container&quot;&gt;
 
 		&lt;div class=&quot;row avoid-overlay-plist-label&quot;&gt;
@@ -237,10 +228,6 @@
         <title>is shame necessary</title>
         <description>&lt;div class=&quot;content-container&quot; id=&quot;isshamenecessary&quot;&gt;
 
-    &lt;div class=&quot;project-page-label toggle-plist&quot;&gt;
-&lt;/div&gt;
-
-
 
     &lt;!-- header --&gt;
 	&lt;div class=&quot;container avoid-overlay-plist-label&quot;&gt;
@@ -301,9 +288,6 @@
       <item>
         <title>FLOW</title>
         <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;flowpage&quot;&gt;
-	&lt;div class=&quot;project-page-label toggle-plist&quot;&gt;
-&lt;/div&gt;
-
 	&lt;div class=&quot;container-fluid&quot;&gt;
 
 		&lt;div class=&quot;row&quot;&gt;
@@ -354,9 +338,6 @@
       <item>
         <title>Book of Happiness</title>
         <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;book-of-happiness&quot;&gt;
-	&lt;div class=&quot;project-page-label toggle-plist&quot;&gt;
-&lt;/div&gt;
-
 
 	&lt;div class=&quot;container&quot;&gt;
 
@@ -414,9 +395,6 @@
       <item>
         <title>Joe The Annoying Friend</title>
         <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;joepage&quot;&gt;
-	&lt;div class=&quot;project-page-label toggle-plist&quot;&gt;
-&lt;/div&gt;
-
 	&lt;div class=&quot;container-fluid&quot;&gt;
 		&lt;div class=&quot;row&quot;&gt;
 		&lt;div class=&quot;col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4&quot;&gt;
@@ -448,9 +426,6 @@
       <item>
         <title>balance</title>
         <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;balance&quot;&gt;
-	&lt;div class=&quot;project-page-label toggle-plist&quot;&gt;
-&lt;/div&gt;
-
 	&lt;div class=&quot;container-fluid&quot;&gt;
 		&lt;div class=&quot;row&quot; id=&quot;intro&quot;&gt;
 			&lt;div class=&quot;col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3&quot;&gt;
@@ -519,9 +494,6 @@
       <item>
         <title>printing code</title>
         <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;printing-code&quot;&gt;
-&lt;div class=&quot;project-page-label toggle-plist&quot;&gt;
-&lt;/div&gt;
-
 	&lt;div class=&quot;container-fluid&quot;&gt;
 
 		&lt;div class=&quot;row&quot;&gt;
@@ -582,9 +554,6 @@
       <item>
         <title>Interlaced Faces</title>
         <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;lightcubes&quot;&gt;
-	&lt;div class=&quot;project-page-label toggle-plist&quot;&gt;
-&lt;/div&gt;
-
 	&lt;div class=&quot;container-fluid&quot;&gt;
 		&lt;div class=&quot;row&quot;&gt;
 			&lt;div class=&quot;col-xs-10 col-xs-offset-1 text-center&quot;&gt;

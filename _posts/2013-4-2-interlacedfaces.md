@@ -8,7 +8,6 @@ permalink: interlacedfaces
 brief: Interlaced Faces is an interactive installation that uses the camera to capture 1000 live images of the viewer’s face and place them randomly in a virtual 3D space. Viewer can also use a hand-held kaleidoscope to navigate inside the virtue space.
 ---
 <div class="content-container label-add-border" id="lightcubes">
-	{% include toggle-plist.html %}
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-10 col-xs-offset-1 text-center">
