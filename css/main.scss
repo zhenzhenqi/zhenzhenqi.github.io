@@ -59,6 +59,7 @@ body {
 
 a {
 	transition: border-color 0.3s;
+    
 }
 
 
@@ -132,14 +133,6 @@ li{
 		top: 0;
 	}
 
-	a {
-		color: $green;
-		border-bottom: 8px solid $green;
-		transition: border-color 0.3s;
-		&:hover {
-			border-bottom: 8px solid $awhite;
-		}
-	}
 	
 }
 
@@ -813,9 +806,7 @@ li{
                 line-height: 1.2em;
 
 					&:hover{
-//						padding: 5px $plist-offset-hover;
-//                        background-color: yellow;
-                        text-decoration: line-through;
+                        text-decoration: none;
 					}
 				}
 			}

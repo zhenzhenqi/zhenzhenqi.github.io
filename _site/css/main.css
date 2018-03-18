@@ -62,12 +62,6 @@ li {
     position: absolute;
     left: 0;
     top: 0; }
-  #home a {
-    color: lime;
-    border-bottom: 8px solid lime;
-    transition: border-color 0.3s; }
-    #home a:hover {
-      border-bottom: 8px solid #fff; }
 
 #isshamenecessary {
   background-color: #12B06B;
@@ -422,7 +416,7 @@ li {
       font-size: 2em;
       line-height: 1.2em; }
       #project-list ul li:hover {
-        text-decoration: line-through; }
+        text-decoration: none; }
   #project-list a {
     padding: 0; }
     #project-list a p {

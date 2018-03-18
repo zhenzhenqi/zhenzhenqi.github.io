@@ -53,12 +53,11 @@ $(window).resize(function(){
 	}
 	centerPL();
 	adjustConetentWraperHeight();
-
+    $('#zzContainer').width  = window.innerWidth;
+    $('#zzContainer').height = window.innerHeight;
 });
 
-$(window).scroll(function(){
-	show_hide_floating_menu_button();
-});
+
 
 
 function showlist(_plist_shown){

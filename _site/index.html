@@ -25,12 +25,8 @@
 
 	<!-- js libs -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ResponsiveSlides.js/1.53/responsiveslides.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
 	<!-- my js -->
 	<script type="text/javascript" src="/js/custom.js"></script>
-	<script type="text/javascript" src="/js/aboutpopup.js"></script>
-
 </head>
 
 
@@ -360,7 +356,7 @@
 
 <!--<script src=""></script>-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/91/three.min.js"></script>
-<script src="js/orbitControls.js"></script>
+<!--<script src="js/orbitControls.js"></script>-->
 <script type="x-shader/x-vertex" id="vertexShader">
     //classical perlin noise 
     
@@ -590,6 +586,8 @@ void main() {
     start = Date.now(),
     fov = 30;
 
+    var rotations;
+    
 window.addEventListener('load', function () {
 
     // grab the container from the DOM
@@ -598,7 +596,7 @@ window.addEventListener('load', function () {
     
     // create a scene
     scene = new THREE.Scene();
-    scene.background = new THREE.Color("rgb(0, 0, 255)" );
+    scene.background = new THREE.Color("rgb(8, 8, 8)" );
     scene.fog = new THREE.FogExp2( 0xcccccc, 0.02 );
 
     // create a camera the size of the browser window
@@ -637,11 +635,12 @@ window.addEventListener('load', function () {
         new THREE.IcosahedronGeometry(20, 4),
         material
     );
+
+    rotations = new THREE.Vector3(0,0,0);
     scene.add(mesh);
 
     // create the renderer and attach it to the DOM
     renderer = new THREE.WebGLRenderer();
-    console.log(renderer);
     renderer.setSize(window.innerWidth, window.innerHeight);
     renderer.setClearColor( scene.fog.color );
 
@@ -649,17 +648,25 @@ window.addEventListener('load', function () {
     container.appendChild(renderer.domElement);
     
     
-    controls = new THREE.OrbitControls( camera, renderer.domElement );
-				//controls.addEventListener( 'change', render ); // add this only if there is no animation loop (requestAnimationFrame)
-				controls.enableDamping = true;
-				controls.dampingFactor = 0.25;
-				controls.enableZoom = true;
+//    controls = new THREE.OrbitControls( camera, renderer.domElement );
+//				//controls.addEventListener( 'change', render ); // add this only if there is no animation loop (requestAnimationFrame)
+//				controls.enableDamping = true;
+//				controls.dampingFactor = 0.25;
+//				controls.enableZoom = true;
 
     render();
 
 });
 
 function render() {
+    
+    rotations.addScalar(0.006);
+    
+    mesh.rotation.x = rotations.x;
+    mesh.rotation.y = rotations.y;
+    mesh.rotation.z = rotations.z;
+    
+    
     material.uniforms[ 'time' ].value = .00005 * ( Date.now() - start );
     // let there be light
     renderer.render(scene, camera);
