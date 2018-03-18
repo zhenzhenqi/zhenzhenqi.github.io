@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Interlaced Faces"
-category: research
+category: art
 tags: programming arduino installation
 shortcode: interlacedfaces
 permalink: interlacedfaces

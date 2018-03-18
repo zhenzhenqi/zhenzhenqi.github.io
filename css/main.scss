@@ -97,35 +97,8 @@ li{
 	list-style: none;
 }
 
-
-
-
-
-
-//=============================================================================================
-// Home Page
-//=============================================================================================
-
-
-#home {
-	color: $green;
-	opacity: 0.95;
-	padding-top: 15em;
-
-	@media (max-width: 767.99999px) {
-		padding-top: 8em;
-	}
-
-
-	canvas {
-		width: 100%;
-		height: 100%;
-		z-index: -100;
-		position: absolute;
-		left: 0;
-		top: 0;
-	}
-	
+.content-container div{
+    margin-bottom: 5em;
 }
 
 
@@ -753,11 +726,14 @@ li{
 
 	}
 
+
+
+
 //=============================================================================================
 // Project List
 //=============================================================================================
 
-#project-list{
+#project-list{ 
     color: $purple;
 	$project-list-font-size: 2em;
 	text-transform: capitalize;
@@ -773,7 +749,7 @@ li{
 
 		left: 6px;
 		bottom: 6px;
-		font-size: 0.7em;
+		font-size: 0.8em;
 
 		h5{
 			margin: 0;
@@ -822,7 +798,6 @@ li{
             display: none;
         }
 }
-
 
 	
 
