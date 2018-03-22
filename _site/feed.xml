@@ -6,49 +6,9 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Mar 2018 22:41:04 -0400</pubDate>
-    <lastBuildDate>Wed, 21 Mar 2018 22:41:04 -0400</lastBuildDate>
+    <pubDate>Wed, 21 Mar 2018 22:50:36 -0400</pubDate>
+    <lastBuildDate>Wed, 21 Mar 2018 22:50:36 -0400</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
-    
-      <item>
-        <title>Ambition of Interactivity</title>
-        <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;joepage&quot;&gt;
-	&lt;div class=&quot;container-fluid&quot;&gt;
-			&lt;div class=&quot;col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2 text-center&quot;&gt;
-				&lt;div&gt;
-                    &lt;h1&gt;Ambition of Interactivity&lt;/h1&gt;
-                    &lt;p&gt;My article &quot;Ambition of Interactivity&quot; was published in the 2017 March Issurance of Blink Magazine.&lt;/p&gt;
-                    &lt;p&gt;Founded by Su Ye, in January 2014, at Florida, US, BLINK is a non-profit online journal that focuses on visual arts and literature.
-BLINK's content contributors are from all over the world. Many of them are students, emerging artists and independent designers that are currently working overseas, including countries like United States, United Kingdoms, Germany, Japan, Australia, Spain and France, etc. Also, BLINK has a growing readers' community in China, which attracts new contributors from the creative communities from Beijing, Hong Kong and Wuhan. “Being an independent thinker&quot; is what BLINK aims at.
-BLINK encourages the young Chinese-speaking generations to observe, think, and question today's art and everyday life with their critical eyes and thoughtful minds.&lt;/p&gt;
-                &lt;/div&gt;
-                
-                
-                &lt;div&gt;
-                    &lt;h2&gt;Excerpt of Magazine&lt;/h2&gt;
-                    &lt;img src=&quot;/assets/ambitionofinteractivity/2018_blink_25-1.jpg&quot; class=&quot;img-responsive&quot; /&gt;
-                    &lt;img src=&quot;/assets/ambitionofinteractivity/2018_blink_25-8.jpg&quot; class=&quot;img-responsive&quot; /&gt;
-                    &lt;img src=&quot;/assets/ambitionofinteractivity/2018_blink_25-9.jpg&quot; class=&quot;img-responsive&quot; /&gt;
-                    &lt;img src=&quot;/assets/ambitionofinteractivity/2018_blink_25-10.jpg&quot; class=&quot;img-responsive&quot; /&gt;
-                    &lt;img src=&quot;/assets/ambitionofinteractivity/2018_blink_25-11.jpg&quot; class=&quot;img-responsive&quot; /&gt;
-                    &lt;img src=&quot;/assets/ambitionofinteractivity/2018_blink_25-12.jpg&quot; class=&quot;img-responsive&quot; /&gt;
-                    &lt;img src=&quot;/assets/ambitionofinteractivity/2018_blink_25-13.jpg&quot; class=&quot;img-responsive&quot; /&gt;
-                    &lt;img src=&quot;/assets/ambitionofinteractivity/2018_blink_25-14.jpg&quot; class=&quot;img-responsive&quot; /&gt;
-			   &lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sun, 18 Mar 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/ambitionofinteractivity</link>
-        <guid isPermaLink="true">http://localhost:4000/ambitionofinteractivity</guid>
-        
-        <category>curitoral</category>
-        
-        
-        <category>research</category>
-        
-      </item>
     
       <item>
         <title>Lifecycle of Interfaces</title>
@@ -90,6 +50,46 @@ BLINK encourages the young Chinese-speaking generations to observe, think, and q
         <pubDate>Sun, 18 Mar 2018 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/lifecycleofinterfaces</link>
         <guid isPermaLink="true">http://localhost:4000/lifecycleofinterfaces</guid>
+        
+        <category>curitoral</category>
+        
+        
+        <category>research</category>
+        
+      </item>
+    
+      <item>
+        <title>Ambition of Interactivity</title>
+        <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;joepage&quot;&gt;
+	&lt;div class=&quot;container-fluid&quot;&gt;
+			&lt;div class=&quot;col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2 text-center&quot;&gt;
+				&lt;div&gt;
+                    &lt;h1&gt;Ambition of Interactivity&lt;/h1&gt;
+                    &lt;p&gt;My article &quot;Ambition of Interactivity&quot; was published in the 2017 March Issurance of Blink Magazine. I am working on English translation and will update here once I am ready to publish. Below is the information about the Chinese contemporary art publication&lt;/p&gt;
+                    &lt;p&gt;Founded by Su Ye, in January 2014, at Florida, US, &lt;a href=&quot;http://www.blink-magazine.com/&quot;&gt;BLINK&amp;lt;/a href&amp;gt; is a non-profit online journal that focuses on visual arts and literature.
+BLINK's content contributors are from all over the world. Many of them are students, emerging artists and independent designers that are currently working overseas, including countries like United States, United Kingdoms, Germany, Japan, Australia, Spain and France, etc. Also, BLINK has a growing readers' community in China, which attracts new contributors from the creative communities from Beijing, Hong Kong and Wuhan. “Being an independent thinker&quot; is what BLINK aims at.
+BLINK encourages the young Chinese-speaking generations to observe, think, and question today's art and everyday life with their critical eyes and thoughtful minds.&amp;lt;/p&amp;gt;
+                &amp;lt;/div&amp;gt;
+                
+                
+                &lt;div&gt;
+                    &lt;h2&gt;Excerpt of Magazine&lt;/h2&gt;
+                    &lt;img src=&quot;/assets/ambitionofinteractivity/2018_blink_25-1.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+                    &lt;img src=&quot;/assets/ambitionofinteractivity/2018_blink_25-8.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+                    &lt;img src=&quot;/assets/ambitionofinteractivity/2018_blink_25-9.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+                    &lt;img src=&quot;/assets/ambitionofinteractivity/2018_blink_25-10.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+                    &lt;img src=&quot;/assets/ambitionofinteractivity/2018_blink_25-11.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+                    &lt;img src=&quot;/assets/ambitionofinteractivity/2018_blink_25-12.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+                    &lt;img src=&quot;/assets/ambitionofinteractivity/2018_blink_25-13.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+                    &lt;img src=&quot;/assets/ambitionofinteractivity/2018_blink_25-14.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+			   &lt;/div&gt;
+	&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Sun, 18 Mar 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/ambitionofinteractivity</link>
+        <guid isPermaLink="true">http://localhost:4000/ambitionofinteractivity</guid>
         
         <category>curitoral</category>
         
