@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Mar 2018 21:14:50 -0400</pubDate>
-    <lastBuildDate>Sun, 18 Mar 2018 21:14:50 -0400</lastBuildDate>
+    <pubDate>Wed, 21 Mar 2018 22:41:04 -0400</pubDate>
+    <lastBuildDate>Wed, 21 Mar 2018 22:41:04 -0400</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -150,6 +150,283 @@ BLINK encourages the young Chinese-speaking generations to observe, think, and q
       </item>
     
       <item>
+        <title>thing thing thing(forthcoming)</title>
+        <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;lightcubes&quot;&gt;
+	&lt;div class=&quot;container-fluid&quot;&gt;
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;col-xs-10 col-xs-offset-1 text-center&quot;&gt;
+				&lt;h1&gt;Thing Thing Thing(forth coming)&lt;/h1&gt;
+                
+				&lt;p&gt;Making an art game is like daydreaming - one that we can go back to over and over again. Game Objects are external manifestations of creators’ spirits. When their creators are tied up with the reality of life, these tiny things awake in the wondrous space of “grandeur” (Gustave Bachelard, 1948) created through the imagination of their creators. They twist, turn, wiggle, roll around. On a sunny day, they wonder into the deep land, make a friend, sing a song(more like make a sound to their creators) by the river. Gently, they bring together heaven and earth, and opens us the future of reality. &lt;/p&gt;
+                &lt;img src=&quot;/assets/thingthingthing/screenshot.png&quot; class=&quot;img-responsive&quot; /&gt;
+                
+                &lt;p&gt;ThingThingThing is an experimental collaboration between Asia Art Archive and artist duo ZZYW, formed by Yang Wang and Zhenzhen Qi. A group of participants and the organizers will spend two fun and action packed days in AAA’s lovely Brooklyn Heights office, learning fundamentals of video game development, and make a collective art game along the way.  At the end of the two days, the result is a film that generates it own plots in real time, composed by all participants using Unity, a video game development platform and C# as the programming language. &lt;/p&gt;
+                
+                &lt;p&gt;Day One: participants will be supplied with 3d models that roughly refer to humans, animals, or objects. 
+They will learn about creating materials, editing textures, as well as using computer code to manipulate the location, movement, rotation, and size of the models. &lt;br /&gt;&lt;br /&gt;
+
+Day Two: participants will be supplied with simple computer code, as well as modifying and writing their own code to add slightly more involved game plays to what they have created. For example, a computer code can be attached to the model that tells the model to “make a sound” when it approaches the river, or “disperse tiny stars” when meeting a new friend. &lt;br /&gt;&lt;br /&gt;
+
+Throughout the entire workshop, the artists will collect 3d Things made in all shapes and forms, and put them into a virtual world. At the end of the two-day workshop, we will project the final version onto the wall, and watch our creations walk around and meet each other - thing to thing, while we also get to know one another, human to human. 
+
+&lt;/p&gt;
+
+               
+               &lt;div&gt;
+                    &lt;h2&gt;Video&lt;/h2&gt;
+                    &lt;p&gt;TBD&lt;/p&gt;
+                &lt;/div&gt;
+
+                 
+                 &lt;div&gt;
+                    &lt;h2&gt;Documentation&lt;/h2&gt;
+                    &lt;p&gt;TBD&lt;/p&gt;           
+                &lt;/div&gt;
+				
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 02 Jan 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/thingthingthing</link>
+        <guid isPermaLink="true">http://localhost:4000/thingthingthing</guid>
+        
+        <category>programming</category>
+        
+        <category>arduino</category>
+        
+        <category>installation</category>
+        
+        
+        <category>art</category>
+        
+      </item>
+    
+      <item>
+        <title>the little browser</title>
+        <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;lightcubes&quot;&gt;
+	&lt;div class=&quot;container-fluid&quot;&gt;
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;col-xs-10 col-xs-offset-1 text-center&quot;&gt;
+				&lt;h1&gt;little browser&lt;/h1&gt;
+                &lt;p&gt;a little browser living inside a furry laptop shell. it's eager to make new friends, but also shy and easily frightened&lt;/p&gt;
+               
+               &lt;div&gt;
+                    &lt;h2&gt;Installation Documentation&lt;/h2&gt;
+                    &lt;img src=&quot;/assets/littlebrowser/10.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+                    &lt;img src=&quot;/assets/littlebrowser/12.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+                &lt;/div&gt;
+
+				
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 02 Jan 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/littlebrowser</link>
+        <guid isPermaLink="true">http://localhost:4000/littlebrowser</guid>
+        
+        <category>programming</category>
+        
+        <category>arduino</category>
+        
+        <category>installation</category>
+        
+        
+        <category>art</category>
+        
+      </item>
+    
+      <item>
+        <title>lenna</title>
+        <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;lightcubes&quot;&gt;
+	&lt;div class=&quot;container-fluid&quot;&gt;
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;col-xs-10 col-xs-offset-1 text-center&quot;&gt;
+				&lt;h1&gt;lenna&lt;/h1&gt;
+				&lt;p&gt;An autonomous, computer-run installation. A custom-written software on a computer types code, compiles it, generates color backgrounds and typography, and prints the imageries out on papers through a Inkjet printer. Audiences are invited to come inside the gallery and examine the monitor screen, movement of the cursor, custom hardware tapping the keypad, and the printer, as the entire process unravels itself, live, uninterrupted. All the prints produced throughout the exhibition are also available for purchase at prices named by the visiting guests themselves.&lt;/p&gt;
+
+                &lt;div&gt;
+                    &lt;h2&gt;Video&lt;/h2&gt;
+                    &lt;iframe src=&quot;https://player.vimeo.com/video/261238735?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;800&quot; height=&quot;450&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+                &lt;/div&gt;
+				&lt;div&gt;
+                    &lt;h2&gt;Installation Documentation&lt;/h2&gt;
+				    &lt;img src=&quot;/assets/lenna/IMG_3820%20copy.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+                    &lt;img src=&quot;/assets/lenna/IMG_3828%20copy.png&quot; class=&quot;img-responsive&quot; /&gt;
+                    &lt;img src=&quot;/assets/lenna/IMG_3796%20copy.png&quot; class=&quot;img-responsive&quot; /&gt;
+                    
+                &lt;/div&gt;
+                 
+                 &lt;div&gt;
+                    &lt;h2&gt;Selected prints generated by LENNA during the exhibition&lt;/h2&gt;
+                
+                        &lt;img src=&quot;/assets/lenna/1222221822.jpg&quot; class=&quot;col-md-6&quot; /&gt;
+                        &lt;img src=&quot;/assets/lenna/151657326460.jpg&quot; class=&quot;col-md-6&quot; /&gt;
+             
+                        &lt;img src=&quot;/assets/lenna/16018281.jpg&quot; class=&quot;col-md-6&quot; /&gt;
+                        &lt;img src=&quot;/assets/lenna/161934172543.png&quot; class=&quot;col-md-6&quot; /&gt;
+            
+                        &lt;img src=&quot;/assets/lenna/1619404116.png&quot; class=&quot;col-md-6&quot; /&gt;
+                        &lt;img src=&quot;/assets/lenna/16200543108.png&quot; class=&quot;col-md-6&quot; /&gt;
+             
+                        &lt;img src=&quot;/assets/lenna/16214704350.png&quot; class=&quot;col-md-6&quot; /&gt;
+                        &lt;img src=&quot;/assets/lenna/182349511712.jpeg&quot; class=&quot;col-md-6&quot; /&gt;
+                        &lt;img src=&quot;/assets/lenna/18235031730.jpg&quot; class=&quot;col-md-6&quot; /&gt;
+                        &lt;img src=&quot;/assets/lenna/19122951670.jpeg&quot; class=&quot;col-md-6&quot; /&gt;
+                        &lt;img src=&quot;/assets/lenna/182345102787.jpeg&quot; class=&quot;col-md-6&quot; /&gt;
+                   
+                &lt;/div&gt;
+				
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 02 Jan 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/lenna</link>
+        <guid isPermaLink="true">http://localhost:4000/lenna</guid>
+        
+        <category>programming</category>
+        
+        <category>arduino</category>
+        
+        <category>installation</category>
+        
+        
+        <category>art</category>
+        
+      </item>
+    
+      <item>
+        <title>emoji face</title>
+        <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;lightcubes&quot;&gt;
+	&lt;div class=&quot;container-fluid&quot;&gt;
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;col-xs-10 col-xs-offset-1 text-center&quot;&gt;
+				&lt;h1&gt;emoji face&lt;/h1&gt;
+				&lt;p&gt;An interactive installation that replaces audiences' heads with 3d virtual emojis.&lt;/p&gt;
+
+				&lt;div&gt;
+                    &lt;h2&gt;Installation Documentation&lt;/h2&gt;
+				    &lt;img src=&quot;/assets/emojiFace/emoji_1.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+		            &lt;img src=&quot;/assets/emojiFace/emoji_2.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+                    &lt;img src=&quot;/assets/emojiFace/emoji_3.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+                    &lt;img src=&quot;/assets/emojiFace/emoji_4.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+                    &lt;img src=&quot;/assets/emojiFace/emoji_5.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+                    &lt;img src=&quot;/assets/emojiFace/emoji_6.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+                    &lt;img src=&quot;/assets/emojiFace/emoji_7.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+                    &lt;img src=&quot;/assets/emojiFace/emoji_8.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+                &lt;/div&gt;
+                 
+				
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 02 Jan 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/emojiface</link>
+        <guid isPermaLink="true">http://localhost:4000/emojiface</guid>
+        
+        <category>programming</category>
+        
+        <category>arduino</category>
+        
+        <category>installation</category>
+        
+        
+        <category>art</category>
+        
+      </item>
+    
+      <item>
+        <title>TV Man</title>
+        <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;lightcubes&quot;&gt;
+	&lt;div class=&quot;container-fluid&quot;&gt;
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;col-xs-10 col-xs-offset-1 text-center&quot;&gt;
+				&lt;h1&gt;TV Man&lt;/h1&gt;
+				&lt;p&gt;A walking simulation controlled thorugh joystick. a pig wandering aimlessly in the middle of the night, encountering strange employees inside an office bulding&lt;/p&gt;
+
+				&lt;div&gt;
+                    &lt;h2&gt;Documentation&lt;/h2&gt;
+				    &lt;img src=&quot;/assets/tvman/preview.png&quot; class=&quot;img-responsive&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+                    &lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+                        &lt;iframe src=&quot;https://player.vimeo.com/video/253840285?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;800&quot; height=&quot;450&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                
+				
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 02 Jan 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/tvman</link>
+        <guid isPermaLink="true">http://localhost:4000/tvman</guid>
+        
+        <category>programming</category>
+        
+        <category>arduino</category>
+        
+        <category>installation</category>
+        
+        
+        <category>art</category>
+        
+      </item>
+    
+      <item>
+        <title>Prism</title>
+        <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;lightcubes&quot;&gt;
+	&lt;div class=&quot;container-fluid&quot;&gt;
+		&lt;div class=&quot;row&quot;&gt;
+			&lt;div class=&quot;col-xs-10 col-xs-offset-1 text-center&quot;&gt;
+				&lt;h1&gt;PRISM&lt;/h1&gt;
+				&lt;p&gt;An interactive installation that uses the camera to capture 1000 live images of the viewer’s face and place them randomly in a virtual 3D space. A customized version of PRISM was exhibited at the Riverside Museum, Bejing China, in September 2017.&lt;/p&gt;
+
+				&lt;div&gt;
+                    &lt;h2&gt;Installation Documentation&lt;/h2&gt;
+				    &lt;img src=&quot;/assets/prism/prism1.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+		              &lt;img src=&quot;/assets/prism/prism2.jpg&quot; class=&quot;img-responsive&quot; /&gt; 
+                      &lt;img src=&quot;/assets/prism/prism3.jpg&quot; class=&quot;img-responsive&quot; /&gt; 
+                      &lt;img src=&quot;/assets/prism/prism4.jpg&quot; class=&quot;img-responsive&quot; /&gt; 
+                      &lt;img src=&quot;/assets/prism/prism5.jpg&quot; class=&quot;img-responsive&quot; /&gt;
+                &lt;/div&gt;
+                 
+
+				
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 02 Sep 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/prism</link>
+        <guid isPermaLink="true">http://localhost:4000/prism</guid>
+        
+        <category>programming</category>
+        
+        <category>arduino</category>
+        
+        <category>installation</category>
+        
+        
+        <category>art</category>
+        
+      </item>
+    
+      <item>
         <title>The Introspection Game</title>
         <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;tigpage&quot;&gt;
 
@@ -211,341 +488,6 @@ BLINK encourages the young Chinese-speaking generations to observe, think, and q
         <category>programming</category>
         
         <category>installation</category>
-        
-        
-        <category>art</category>
-        
-      </item>
-    
-      <item>
-        <title>exhibit: growth</title>
-        <description>&lt;div class=&quot;content-container&quot; id=&quot;exhibit-growth&quot;&gt;
-	&lt;div class=&quot;container-fluid&quot; id=&quot;bg-container&quot;&gt;
-
-		&lt;div class=&quot;row avoid-overlay-plist-label&quot;&gt;
-			&lt;div class=&quot;col-xs-11 col-sm-8 col-md-6 col-sm-offset-1 black-bg&quot;&gt;
-				&lt;h2&gt;Exhibit:Growth is an interactive, immersive art installation Inside a stunning geodesic dome, you'll choreograph a unique visual expression via large-scale, motion-activated digital technology.
-				&lt;/h2&gt;
-				&lt;hr /&gt;
-				&lt;p&gt;Exhibit: Growth has seven stories: Liberation, Fear, Isolation, Frustration, Regret, Confusion and Inspiration. It explores the potential of using new media interactive technologies to evoke the feelings in its audience.&lt;/p&gt;
-				&amp;lt;/p&amp;gt;
-			&lt;/div&gt;
-
-			&lt;h3 class=&quot;col-xs-7 col-xs-offset-4 col-sm-6 col-sm-offset-5 col-md-5 col-md-offset-4 black-bg&quot;&gt;Made with Fake Love &amp;amp; the Mill+ for Umpqua Bank.&lt;/h3&gt;
-
-		&lt;/div&gt;
-
-
-	&lt;/div&gt;
-	
-	&lt;div class=&quot;container-fluid&quot;&gt;
-		&lt;div class=&quot;row&quot;&gt;
-			&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/120842719&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-
-	&lt;div class=&quot;container-fluid&quot;&gt;
-		&lt;div id=&quot;slides&quot; class=&quot;row&quot;&gt;
-			&lt;div&gt;&lt;img src=&quot;/assets/exhibitgrowth/UmpquaBank_ConceptDev_092614-page4.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/div&gt;
-			&lt;div&gt;&lt;img src=&quot;/assets/exhibitgrowth/UmpquaBank_ConceptDev_092614-page6.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/div&gt;
-			&lt;div&gt;&lt;img src=&quot;/assets/exhibitgrowth/UmpquaBank_ConceptDev_092614-page8.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/div&gt;
-			&lt;div&gt;&lt;img src=&quot;/assets/exhibitgrowth/UmpquaBank_ConceptDev_092614-page10.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/div&gt;
-			&lt;div&gt;&lt;img src=&quot;/assets/exhibitgrowth/UmpquaBank_ConceptDev_092614-page12.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/div&gt;
-			&lt;div&gt;&lt;img src=&quot;/assets/exhibitgrowth/UmpquaBank_ConceptDev_092614-page14.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/div&gt;
-			&lt;div&gt;&lt;img src=&quot;/assets/exhibitgrowth/UmpquaBank_ConceptDev_092614-page16.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/div&gt;
-			&lt;div&gt;&lt;img src=&quot;/assets/exhibitgrowth/UmpquaBank_ConceptDev_092614-page17.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/div&gt;
-			&lt;div&gt;&lt;img src=&quot;/assets/exhibitgrowth/UmpquaBank_ConceptDev_092614-page18.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/div&gt;
-			&lt;div&gt;&lt;img src=&quot;/assets/exhibitgrowth/UmpquaBank_ConceptDev_092614-page20.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/div&gt;
-
-			&lt;div&gt;&lt;img src=&quot;/assets/exhibitgrowth/Umpqua_Schematics_v3-page2.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/div&gt;
-			&lt;div&gt;&lt;img src=&quot;/assets/exhibitgrowth/Umpqua_Schematics_v3-page3.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/div&gt;
-			&lt;div&gt;&lt;img src=&quot;/assets/exhibitgrowth/Umpqua_Schematics_v3-page4.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/div&gt;
-			&lt;div&gt;&lt;img src=&quot;/assets/exhibitgrowth/Umpqua_Schematics_v3-page5.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/div&gt;
-			&lt;div&gt;&lt;img src=&quot;/assets/exhibitgrowth/Umpqua_Schematics_v3-page6.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/div&gt;
-			&lt;div&gt;&lt;img src=&quot;/assets/exhibitgrowth/Umpqua_Schematics_v3-page7.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/div&gt;
-			&lt;div&gt;&lt;img src=&quot;/assets/exhibitgrowth/Umpqua_Schematics_v3-page8.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/div&gt;
-			&lt;div&gt;&lt;img src=&quot;/assets/exhibitgrowth/Umpqua_Schematics_v3-page9.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/div&gt;
-			&lt;div&gt;&lt;img src=&quot;/assets/exhibitgrowth/Umpqua_Schematics_v3-page10.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Fri, 10 Oct 2014 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/exhibitgrowth</link>
-        <guid isPermaLink="true">http://localhost:4000/exhibitgrowth</guid>
-        
-        <category>exhibition</category>
-        
-        <category>graphic_design</category>
-        
-        <category>installation</category>
-        
-        
-        <category>design</category>
-        
-      </item>
-    
-      <item>
-        <title>is shame necessary</title>
-        <description>&lt;div class=&quot;content-container&quot; id=&quot;isshamenecessary&quot;&gt;
-
-
-    &lt;!-- header --&gt;
-	&lt;div class=&quot;container avoid-overlay-plist-label&quot;&gt;
-
-		&lt;div class=&quot;row&quot;&gt;
-			&lt;div class=&quot;col-md-10 col-md-offset-1&quot;&gt;
-				&lt;div class=&quot;col-xs-12 col-sm-6&quot;&gt;
-					&lt;h1&gt;A experimental web design work for for New York University Professor &lt;a href=&quot;http://jenniferjacquet.com/&quot; target=&quot;_blank&quot;&gt;Jennifer Jacquet&lt;/a&gt;'s new book &lt;i&gt;&quot;Is shame Necessary?: New Uses for an Old Tool&quot;&lt;/i&gt;.&lt;/h1&gt;
-					&lt;hr /&gt;
-					&lt;h2&gt;We employed serveral new web technologies to explore the possibilities of delivering the message in a more precise and more playful way. &lt;/h2&gt;
-				&lt;/div&gt;
-
-				&lt;div class=&quot;col-xs-12 col-sm-6&quot;&gt;
-					&lt;p&gt;About The Book&lt;/p&gt;
-					&lt;p&gt;An urgent, illuminating exploration of the social nature of shame and of how it might be used to promote large-scale political change and social reform.&lt;br /&gt;&lt;br /&gt;In cultures that champion the individual, guilt is advertised as the cornerstone of conscience. But while guilt holds individuals to personal standards, it is powerless in the face of corrupt institutions. In recent years, we as consumers have sought to assuage our guilt about flawed social and environmental practices and policies by, for example, buying organic foods or fair-trade products. Unless nearly everyone participates, however, the impact of individual consumer consciousness is ineffective.&lt;/p&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-
-	&lt;/div&gt;
-	&lt;!-- header ends --&gt;
-
-	&lt;!-- images slide --&gt;
-	&lt;div class=&quot;container-fluid&quot;&gt;
-
-		&lt;div id=&quot;landing&quot; class=&quot;row&quot;&gt;
-			&lt;h1 class=&quot;col-xs-10 col-sm-7 col-md-5&quot;&gt;In the landing page, we used &lt;a href=&quot;http://p5js.org/&quot; target=&quot;_blank&quot;&gt;P5.JS&lt;/a&gt; to create an immersive mouse-based interactive animation to give the user a primary understanding of this book. &lt;a href=&quot;http://isshamenecessary.com/&quot; target=&quot;_blank&quot;&gt;Try it.&lt;/a&gt;&lt;/h1&gt;
-		&lt;/div&gt;
-
-		&lt;div id=&quot;navigation&quot; class=&quot;row&quot;&gt;
-			&lt;h1 class=&quot;col-xs-10 col-sm-7 col-md-5&quot;&gt;In the main navigation page, we used &lt;a href=&quot;http://threejs.org&quot; target=&quot;_blank&quot;&gt;THREE.JS&lt;/a&gt; to create a special 3D navigation for the whole site. Three.js is a new 3D javascript library based on the newly released web technology &lt;a href=&quot;http://www.wikiwand.com/en/WebGL&quot; target=&quot;_blank&quot;&gt;webgl( Web Graphics Library )&lt;/a&gt;. It enables web developers to create 3D space on browser just like what video games do. &lt;a href=&quot;http://isshamenecessary.herokuapp.com/&quot; target=&quot;_blank&quot;&gt;Try it.&lt;/a&gt;
-			&lt;/h1&gt;
-		&lt;/div&gt;
-
-		&lt;div id=&quot;map&quot; class=&quot;row&quot;&gt;
-			&lt;h1 class=&quot;col-xs-10 col-sm-7 col-md-5&quot;&gt;In Map of Human Punishment section, we explored the potential of using the new features came with CSS3 / HTML5 to create a film-like, narriative experience. &lt;a href=&quot;http://isshamenecessary.com/map&quot; target=&quot;_blank&quot;&gt;Try it (desktop platform required).&lt;/a&gt;&lt;/h1&gt;
-		&lt;/div&gt;
-
-	&lt;/div&gt;
-	&lt;!-- images slide ends --&gt;
-
-
-&lt;/div&gt;
-</description>
-        <pubDate>Mon, 06 Oct 2014 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/isshamenecessary</link>
-        <guid isPermaLink="true">http://localhost:4000/isshamenecessary</guid>
-        
-        <category>web_design</category>
-        
-        <category>front_end_dev</category>
-        
-        
-        <category>design</category>
-        
-      </item>
-    
-      <item>
-        <title>FLOW</title>
-        <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;flowpage&quot;&gt;
-	&lt;div class=&quot;container-fluid&quot;&gt;
-
-		&lt;div class=&quot;row&quot;&gt;
-			&lt;h1&gt;FLOW&lt;/h1&gt;
-		&lt;/div&gt;
-
-		&lt;div class=&quot;row&quot;&gt;
-			&lt;div class=&quot;col-xs-10 col-xs-offset-1 col-md-5&quot;&gt;
-				&lt;h5&gt;PROJECT BRIEF&lt;/h5&gt;
-				&lt;p&gt;Virtual Reality experience about anxiety and detachment. Participant wears a breath sensor strapped to their waist, and a 3D head-mount, and get temporarily transported into a virtual world, running through grey abstract streets between sharp buildings, gradually submerged under the sea. A human voice then reassures the participant to not be afraid, and use deep breathing to detach and escape beyond what their eyes can see. It's been described by participants as &quot;a very emotional, cathartic experience&quot;. Not about sound bites and who can shout loudest and who wins and who loses, FLOW is an alternative new-media experience that attempts to bring back one of the most essential human qualities – the ability, through self-reflection, to detach from the physicalities around us, and transcend consciousness.&lt;/p&gt;
-				&lt;h5&gt;BACKGROUND&lt;/h5&gt;
-				&lt;p&gt;On Jun 2nd, 2011, a Beijing based journalist Peter Foster filed an article in the Technology section of the Telegraph – A 17-year-old Chinese boy sold his kidney for an iPad2 and an iPhone. Growing up with messages that we’re incompetent to make our own decisions, and that we will never be happy enough, the fantasy of rugged individualism start to sound particularly attractive. Today, we are working longer hours, buying more things, consuming more food and resources, but we are increasingly feeling exhausted, unfulfilled, and scared. We are running out of time competing against ourselves and each other. As new media artists, we ask the question - Is there a way to use new media technology to direct our attention inward, to be our own spectators, and remediate our relationship with our less conscious self?&lt;/p&gt;
-			&lt;/div&gt;
-
-			&lt;div class=&quot;col-xs-10 col-xs-offset-1 col-md-5 col-md-offset-0&quot;&gt;
-				&lt;img src=&quot;/assets/FLOW/setting.jpg&quot; class=&quot;img-responsive&quot; /&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-
-		&lt;div class=&quot;row&quot;&gt;
-			&lt;div class=&quot;col-xs-10 col-xs-offset-1 col-md-5&quot;&gt;
-				&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/97007458&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-			&lt;/div&gt;
-
-			&lt;div class=&quot;col-xs-10 col-xs-offset-1 col-md-5 col-md-offset-0&quot; id=&quot;research&quot;&gt;
-				&lt;h5&gt;RESEARCH&lt;/h5&gt;
-				&lt;p&gt;We have always been interested in how new-media technology can help people gather more information to answer the questions – What am I like? What are my irrational thoughts and emotions that I wasn’t aware of? I was influenced by Harvard psychology professor Dan Gilbert’s research on synthetic happiness. In a recent study about human mind wandering (M.A.Killingsworth &amp;amp; D.T.Gilbert, 2000), Dr. Gilbert points out that people’s mind wander frequently, and people are in general less happy when their mind wander, regardless of what activities they are engaging in. The concept of mindlessness inspired my further research into ancient eastern philosophy, particularly techniques for practicing detachment, such as meditation, mantra, breathing techniques etc. I have also conducted research on biofeedback therapy and virtual reality immersion therapy (VRIT). A study conducted by Rauch, Eftekhari and Ruzek (McLay, et al., 2012) examined the effectiveness of Virtual Reality Therapy in treating military combat personnel recently returning from the current conflicts in Iraq and Afghanistan. With a sample of 42 combat servicemen who were already diagnosed with chronic PTSD (Post-Traumatic Stress Disorder), 20 of the servicemen observed a significant decrease of symptoms of PTSD after receiving Virtual Reality Exposure Therapy. Additional information about binaural and biofeedback testing can be found &lt;a href=&quot;https://zhenzhenqi.wordpress.com/2014/02/15/flow/&quot; target=&quot;_blank&quot;&gt;HERE&lt;/a&gt;.&lt;/p&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-
-
-	&lt;/div&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Fri, 30 May 2014 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/flow</link>
-        <guid isPermaLink="true">http://localhost:4000/flow</guid>
-        
-        <category>programming</category>
-        
-        <category>installation</category>
-        
-        
-        <category>art</category>
-        
-      </item>
-    
-      <item>
-        <title>Book of Happiness</title>
-        <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;book-of-happiness&quot;&gt;
-
-	&lt;div class=&quot;container&quot;&gt;
-
-		&lt;div class=&quot;row avoid-overlay-plist-label&quot;&gt;
-
-			&lt;div class=&quot;col-xs-12 col-sm-4&quot;&gt;
-				&lt;h1&gt;A book, inside which a person’s happy memories are represented and analyzed using Statistical Regression Analysis and Parametric Design.&lt;/h1&gt;
-				&lt;p&gt;We interviewed a close friend of ours who has overcome more than a decade of struggle against depression.&lt;/p&gt;
-
-&lt;p&gt;She lies down on a couch, and recalls 30 most difficult days during her journey. For each day she remembers, she rates her &quot;sense of loss&quot; and &quot;level of internal struggle&quot; on a scale of 1 to 10.&lt;/p&gt;
-
-&lt;p&gt;We processed the data through a parametric design algorithm, generated 30 diagrams, laser cut into 30 individual pages, and manually bind them into a physical book.&lt;/p&gt;
-
-&lt;p&gt;With this project, we want to explore the possibility of creating a new form of visualization that's both informative, and humane. We hope it could serve as a faithful account of a beautiful journey that's cherished by both the owner and the audience of this book.&lt;/p&gt;
-				&lt;hr /&gt;
-			&lt;/div&gt;
-
-			&lt;div class=&quot;col-xs-12 col-sm-8&quot;&gt;
-				&lt;img src=&quot;/assets/book/1book.jpg&quot; /&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-
-
-	&lt;div class=&quot;container-fluid&quot;&gt;
-		&lt;div class=&quot;row gallery&quot;&gt;
-				&lt;img src=&quot;/assets/book/1book.jpg&quot; /&gt;&lt;img src=&quot;/assets/book/2book.jpg&quot; /&gt;&lt;img src=&quot;/assets/book/3book.jpg&quot; /&gt;&lt;img src=&quot;/assets/book/4book.jpg&quot; /&gt;&lt;img src=&quot;/assets/book/5book.jpg&quot; /&gt;&lt;img src=&quot;/assets/book/6book.jpg&quot; /&gt;&lt;img src=&quot;/assets/book/7book.jpg&quot; /&gt;&lt;img src=&quot;/assets/book/8book.jpg&quot; /&gt;&lt;img src=&quot;/assets/book/9book.jpg&quot; /&gt;&lt;img src=&quot;/assets/book/11book.jpg&quot; /&gt;&lt;img src=&quot;/assets/book/12book.jpg&quot; /&gt;&lt;img src=&quot;/assets/book/13book.jpg&quot; /&gt;&lt;img src=&quot;/assets/book/14book.jpg&quot; /&gt;&lt;img src=&quot;/assets/book/15book.jpg&quot; /&gt;&lt;img src=&quot;/assets/book/16book.jpg&quot; /&gt;&lt;img src=&quot;/assets/book/17book.jpg&quot; /&gt;
-
-				&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/131484846&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-
-				
-		&lt;/div&gt;
-	&lt;/div&gt;
-
-
-&lt;/div&gt;
-</description>
-        <pubDate>Mon, 03 Mar 2014 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/bookofhappiness</link>
-        <guid isPermaLink="true">http://localhost:4000/bookofhappiness</guid>
-        
-        <category>digital_fabrication</category>
-        
-        <category>graphic_design</category>
-        
-        <category>book_design</category>
-        
-        <category>installation</category>
-        
-        
-        <category>art</category>
-        
-      </item>
-    
-      <item>
-        <title>Joe The Annoying Friend</title>
-        <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;joepage&quot;&gt;
-	&lt;div class=&quot;container-fluid&quot;&gt;
-		&lt;div class=&quot;row&quot;&gt;
-		&lt;div class=&quot;col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4&quot;&gt;
-		&lt;h1&gt;Joe The Annoying Friend&lt;/h1&gt;
-		&lt;p&gt;Joe The Annoying Friend is a Chrome extension with an ON and OFF icon, so you can choose whether to let him talk. When you click on your own Status Updates or other people’s posts, he bluntly spits out insensitive facts like “Nobody is really special” and “Everyone eventually dies” to remind you to constantly check in with what’s real before getting sucked into the dreamland of “I wish life could be like this.”&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;Download Extension&lt;/a&gt;
-&lt;/p&gt;
-		&lt;img src=&quot;/assets/joe/onandoff.png&quot; /&gt;
-		&lt;p&gt;Part of the Inspiration comes from my struggle with social psychology. Conversations help us bounce ideas and learn new things. However, we often end up feeding each other stories that make us bigger assholes without us realizing it. Neuroscientists have also discovered that learning process and outcome are stored separately in our brains. This could potentially make social interaction very dangerous – we arrive at conclusions and gradually lose associations with how we get there, or why we think it’s worth to get there in the first place.&lt;/p&gt;
-
-		&lt;p&gt;In The &lt;a href=&quot;http://www3.nd.edu/~wcarbona/Haidt%202001.pdf&quot; target=&quot;_blank&quot;&gt;Emotional Dog Wagging the Conscious Tail&lt;/a&gt;, Haidt mentioned about philosophers’ ability to self-reason, which may at times “reason their way to a judgment by sheer force of logic, overriding their initial intuition.” This concept got me really interested. So, it’s like having a friend who you can always reason with, without worrying about the social conformity issue. Thus, the birth of Joe my annoying friend.&lt;/p&gt;
-		&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sat, 01 Mar 2014 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/joe</link>
-        <guid isPermaLink="true">http://localhost:4000/joe</guid>
-        
-        <category>programming</category>
-        
-        <category>web</category>
-        
-        
-        <category>art</category>
-        
-      </item>
-    
-      <item>
-        <title>balance</title>
-        <description>&lt;div class=&quot;content-container label-add-border&quot; id=&quot;balance&quot;&gt;
-	&lt;div class=&quot;container-fluid&quot;&gt;
-		&lt;div class=&quot;row&quot; id=&quot;intro&quot;&gt;
-			&lt;div class=&quot;col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3&quot;&gt;
-				&lt;h1 class=&quot;avoid-overlay-plist-label&quot;&gt;BALANCE&lt;/h1&gt;
-				&lt;p&gt;BALANCE is an interactve web project. We created two interactive animations by Javascript. Users could change the variable within a range and create their own version of a &quot;balanced shape&quot;. They can also submit the shape they created to our database and get their own shape 3D printed out.&lt;/p&gt;&lt;p&gt;BALANCE is a collective internet art piece that involves big data, digital fabrication, parametric design and psychology.&lt;/p&gt;
-				&lt;h2&gt;&lt;a href=&quot;http://thebalance.herokuapp.com&quot; target=&quot;_blank&quot;&gt;VISIT BALANCE LIVE SITE&lt;/a&gt;&lt;/h2&gt;
-				
-				
-			&lt;/div&gt;
-		&lt;/div&gt;
-
-
-		&lt;div class=&quot;row&quot;&gt;
-			&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/89470698&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-		&lt;/div&gt;
-
-
-		&lt;div class=&quot;row&quot; id=&quot;intro-posters&quot;&gt;
-			&lt;div class=&quot;col-xs-6&quot;&gt;
-				&lt;img src=&quot;/assets/balance/poster-landscape.jpg&quot; /&gt;
-			&lt;/div&gt;
-
-			&lt;div class=&quot;col-xs-6&quot;&gt;
-				&lt;img src=&quot;/assets/balance/poster-portrit.jpg&quot; /&gt;
-			&lt;/div&gt;
-			
-		&lt;/div&gt;
-
-
-		&lt;div class=&quot;row&quot; id=&quot;learnmore&quot;&gt;
-
-			&lt;div class=&quot;col-xs-12 col-sm-8 col-sm-offset-2&quot;&gt;
-				&lt;!-- &lt;hr&gt; --&gt;
-				&lt;h1&gt;&lt;a href=&quot;http://thebalance.herokuapp.com&quot; target=&quot;_blank&quot;&gt;try the interactive animations on live balance site.&lt;/a&gt;&lt;/h1&gt;
-				
-
-
-			&lt;/div&gt;
-			
-		&lt;/div&gt;
-
-
-
-
-
-	&lt;/div&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Tue, 31 Dec 2013 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/balance</link>
-        <guid isPermaLink="true">http://localhost:4000/balance</guid>
-        
-        <category>front_end_dev</category>
-        
-        <category>interaction_design</category>
-        
-        <category>database</category>
-        
-        <category>graphic_design</category>
         
         
         <category>art</category>

@@ -47,6 +47,8 @@ li {
 
 .content-container div {
   margin-bottom: 5em; }
+.content-container img {
+  margin-bottom: 2em; }
 
 #isshamenecessary {
   background-color: #12B06B;
