@@ -6,6 +6,12 @@
   width: 100%;
   height: 100%; }
 
+#yanText {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center; }
+
 body {
   font-family: "Inconsolata", monospace, sans-serif;
   max-width: 100%;

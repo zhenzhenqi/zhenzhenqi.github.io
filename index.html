@@ -82,6 +82,7 @@ layout: default
     <div id="preloads"> <img src="{{ " /assets/project-list-item-hover-background/isn.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/eg.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/ba.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/aca.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/ccpc.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/web.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/ps.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/pc.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/lyte.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/ci.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/boh.jpg " | prepend: site.baseurl }}"> <img src="{{ " /assets/project-list-item-hover-background/globe.jpg " | prepend: site.baseurl }}"> </div>
     
     <div id="zzContainer"></div>
+<!--    <div id="yanText">yanText</div>-->
     
 </div>
 
@@ -319,10 +320,23 @@ void main() {
 
     var rotations;
     
-window.addEventListener('load', function () {
 
+    
+    window.addEventListener('load', function () {
     // grab the container from the DOM
     container = document.getElementById("zzContainer");
+
+        
+    setInterval(myMethod, 5000);
+
+    function myMethod( )
+    {
+        console.log("here");
+        g=document.createElement('div');
+        g.setAttribute("id", "yanText");
+        var newContent = document.createTextNode("Hi there and greetings!"); 
+        g.appendChild(newContent);
+    }
 
     
     // create a scene
@@ -366,6 +380,7 @@ window.addEventListener('load', function () {
         new THREE.IcosahedronGeometry(15, 6),
         material
     );
+    mesh.position.x = 20;
     mesh.position.y = -10;
     rotations = new THREE.Vector3(0,0,0);
     scene.add(mesh);
@@ -379,19 +394,20 @@ window.addEventListener('load', function () {
     renderer.antialias = true;
 
 
-
+    
+        window.addEventListener('resize',function(){
+//        console.log("resize event");
+        renderer.setSize($(container).width(), $(container).height());
+    }); 
+    
+    
+    
     container.appendChild(renderer.domElement);
-    
-    
-//    controls = new THREE.OrbitControls( camera, renderer.domElement );
-//				//controls.addEventListener( 'change', render ); // add this only if there is no animation loop (requestAnimationFrame)
-//				controls.enableDamping = true;
-//				controls.dampingFactor = 0.25;
-//				controls.enableZoom = true;
-
     render();
 
 });
+    
+
 
 function render() {
     
