@@ -724,15 +724,17 @@ li{
 
 #speech-bubble p {
 	position: absolute;
-
 	width: auto;
 	height: auto;
 	// right: 0;
 	// bottom: 0;
 	font-size: 20px;
-	background: green;
+	background: transparent;
+	border: 3px $green solid;
+
 	// border-radius: 100px 100px 0px 100px;
-	color: black;
+	color: $green;
+	font-weight: bold;
 	padding: 20px;
 	min-width: 180px;
 }
