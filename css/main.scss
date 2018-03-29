@@ -716,10 +716,9 @@ li{
 
 #speech-bubble {
 	position: fixed;
-	top: 45vh;
-	left: 54vw;
+	// top: 45vh;
+	// left: 54vw;
 	opacity: 0;
-	transition: opacity 0.8s;
 	// min-height: 30px;
 }
 
@@ -728,11 +727,11 @@ li{
 
 	width: auto;
 	height: auto;
-	right: 0;
-	bottom: 0;
+	// right: 0;
+	// bottom: 0;
 	font-size: 20px;
 	background: green;
-	border-radius: 100px 100px 0px 100px;
+	// border-radius: 100px 100px 0px 100px;
 	color: black;
 	padding: 20px;
 	min-width: 180px;

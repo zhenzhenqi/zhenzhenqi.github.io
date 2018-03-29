@@ -39,6 +39,8 @@ function LoadYanText(){
     );
 }
 
+var randomInterval;
+
 window.addEventListener('load', function() {
     // grab the container from the DOM
     container = document.getElementById("zzContainer");
@@ -53,15 +55,62 @@ window.addEventListener('load', function() {
     speechBubble.appendChild(speechBubbleContent);
 
 
-    setInterval(Speak, 6000);
+    (function loop() {
+        var randomInterval = THREE.Math.randInt(3500,9000);
+        console.log(randomInterval)
+        setTimeout(function() {
+                Speak();
+                loop();
+        }, randomInterval);
+    }());
+
+
+   // setInterval(Speak, 6000);
 
     function Speak() {
         //random select a yantext
-        var yan = yantext[Math.floor(Math.random() * yantext.length)];
+        var yan = yantext[  THREE.Math.randInt(0, yantext.length-1) ];
         speechBubbleContent.innerHTML = yan;
+        //random locations
+        var dice = Math.floor(Math.random()*3);
+
+        switch(dice) {
+            case 0:
+                //top left of blob
+                speechBubble.style.top = "50vh";
+            	speechBubble.style.left = "54vw";
+                speechBubbleContent.style.top = "auto";
+                speechBubbleContent.style.right = 0;
+                speechBubbleContent.style.left = "auto";
+                speechBubbleContent.style.bottom = 0;
+                speechBubbleContent.style.borderRadius = "100px 100px 0px 100px";
+                break;
+            case 1:
+                //bottom left of blob
+                speechBubble.style.top = "65vh";
+            	speechBubble.style.left = "54vw";
+                speechBubbleContent.style.top = 0;
+                speechBubbleContent.style.right = 0;
+                speechBubbleContent.style.left = "auto";
+                speechBubbleContent.style.bottom = "auto";
+                speechBubbleContent.style.borderRadius = "100px 0px 100px 100px";
+                break;
+            case 2:
+                //top right of blob
+                speechBubble.style.top = "45vh";
+            	speechBubble.style.left = "65vw";
+                speechBubbleContent.style.top = 0;
+                speechBubbleContent.style.right = "auto";
+                speechBubbleContent.style.left = 0;
+                speechBubbleContent.style.bottom = "auto";
+                speechBubbleContent.style.borderRadius = "100px 100px 100px 0px";
+                break;
+        }
+
         speechBubble.style.opacity = 1;
 
         setTimeout(function(){
+
              speechBubble.style.opacity = 0;
         },3000);
 
