@@ -10,14 +10,21 @@ var rotations;
 
 var yantext = "";
 
-var audio;
- var speechBubbleContent;
-  var speechBubble;
+//var audio;
+var audio1;
+var audio2;
+var audio3;
+
+var speechBubbleContent;
+var speechBubble;
 
 function LoadYanText(){
     var loader = new THREE.FileLoader();
     
-    audio = new Audio("glitchedtones_RobotChatter01.mp3");
+    audio = new Audio("robotChatter01.mp3");
+    audio1 = new Audio("robotChatter01.mp3");
+    audio2 = new Audio("bird.mp3");
+    audio3 = new Audio("game.mp3");
     //load a text file and output the result to the console
     loader.load(
     	// resource URL
@@ -167,7 +174,8 @@ function TouchRes(){
 }
 
 function PlaySound(){
-    audio.play();
+//    var temp = random();
+    audio1.play();
 }
 
 
