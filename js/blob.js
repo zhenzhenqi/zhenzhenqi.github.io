@@ -23,10 +23,10 @@ function LoadYanText(){
     var loader = new THREE.FileLoader();
     
     audio = new Audio("robotChatter01.mp3");
-    audio1 = new Audio("robotChatter01.mp3");
-    audio2 = new Audio("bird.mp3");
-    audio3 = new Audio("game.mp3");
-    audios = [audio0, audio1, audio2];
+    audio0 = new Audio("robotChatter01.mp3");
+    audio1 = new Audio("bird.mp3");
+    audio2 = new Audio("game.mp3");
+    audios = new Array(audio0, audio1, audio2);
     
     //load a text file and output the result to the console
     loader.load(
@@ -45,7 +45,7 @@ function LoadYanText(){
 
     	// onProgress callback
     	function ( xhr ) {
-    		console.log( (xhr.loaded / xhr.total * 100) + '% loaded' );
+//    		console.log( (xhr.loaded / xhr.total * 100) + '% loaded' );
     	},
 
     	// onError callback
@@ -178,6 +178,7 @@ function TouchRes(){
 
 function PlaySound(){
     var temp = Math.floor(Math.random() * Math.floor(3));
+    console.log(temp);
     audios[temp].play();
 }
 
