@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "thing thing thing(forthcoming)"
+title:  "thing thing thing"
 category: art
 tags: programming arduino installation
 shortcode: thingthingthing
@@ -14,7 +14,6 @@ brief: an experimental participatory, simulation art experience. Collaboration b
 				<h1>Thing Thing Thing(forth coming)</h1>
                 
 				<p>Making an art game is like daydreaming - one that we can go back to over and over again. Game Objects are external manifestations of creators’ spirits. When their creators are tied up with the reality of life, these tiny things awake in the wondrous space of “grandeur” (Gustave Bachelard, 1948) created through the imagination of their creators. They twist, turn, wiggle, roll around. On a sunny day, they wonder into the deep land, make a friend, sing a song(more like make a sound to their creators) by the river. Gently, they bring together heaven and earth, and opens us the future of reality. </p>
-                <img src="/assets/thingthingthing/screenshot.png" class="img-responsive">
                 
                 <p>ThingThingThing is an experimental collaboration between Asia Art Archive and artist duo ZZYW, formed by Yang Wang and Zhenzhen Qi. A group of participants and the organizers will spend two fun and action packed days in AAA’s lovely Brooklyn Heights office, learning fundamentals of video game development, and make a collective art game along the way.  At the end of the two days, the result is a film that generates it own plots in real time, composed by all participants using Unity, a video game development platform and C# as the programming language. </p>
                 
@@ -29,15 +28,12 @@ Throughout the entire workshop, the artists will collect 3d Things made in all s
 
                
                <div>
-                    <h2>Video</h2>
+                    <h2>Video Documentation</h2>
                     <p>TBD</p>
                 </div>
 
                  
-                 <div>
-                    <h2>Documentation</h2>
-                    <p>TBD</p>           
-                </div>
+                 <iframe src="https://player.vimeo.com/video/264903915?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				
 			</div>
 		</div>
