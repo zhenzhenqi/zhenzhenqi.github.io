@@ -11,7 +11,7 @@ brief: an experimental participatory, simulation art experience. Collaboration b
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-10 col-xs-offset-1 text-center">
-				<h1>Thing Thing Thing(forth coming)</h1>
+				<h1>Thing Thing Thing</h1>
                 
 				<p>Making an art game is like daydreaming - one that we can go back to over and over again. Game Objects are external manifestations of creators’ spirits. When their creators are tied up with the reality of life, these tiny things awake in the wondrous space of “grandeur” (Gustave Bachelard, 1948) created through the imagination of their creators. They twist, turn, wiggle, roll around. On a sunny day, they wonder into the deep land, make a friend, sing a song(more like make a sound to their creators) by the river. Gently, they bring together heaven and earth, and opens us the future of reality. </p>
                 
