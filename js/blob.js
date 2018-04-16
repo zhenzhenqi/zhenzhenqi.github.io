@@ -11,9 +11,10 @@ var rotations;
 var yantext = "";
 
 //var audio;
+var audio0;
 var audio1;
 var audio2;
-var audio3;
+var audios;
 
 var speechBubbleContent;
 var speechBubble;
@@ -25,6 +26,8 @@ function LoadYanText(){
     audio1 = new Audio("robotChatter01.mp3");
     audio2 = new Audio("bird.mp3");
     audio3 = new Audio("game.mp3");
+    audios = [audio0, audio1, audio2];
+    
     //load a text file and output the result to the console
     loader.load(
     	// resource URL
@@ -174,8 +177,8 @@ function TouchRes(){
 }
 
 function PlaySound(){
-//    var temp = random();
-    audio1.play();
+    var temp = Math.floor(Math.random() * Math.floor(3));
+    audios[temp].play();
 }
 
 
