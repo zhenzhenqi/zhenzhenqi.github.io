@@ -28,6 +28,14 @@ Throughout the entire workshop, the artists will collect 3d Things made in all s
 
                
                <div>
+                    <p>
+                    Zhenzhen PrinceZ<br>
+                    Yang Elo & Dummy<br>
+                    Jingling JZ & JZPig<br>
+                    Evian Cloud Cloud & Sheep_Mushy<br>
+                    Sara Margarita & Tomas<br>
+                    JHMun Chicken<br>
+                    </p>
                     <h2>Video Documentation of final version of the Simulation art</h2>
                      <iframe src="https://player.vimeo.com/video/264903915?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="800" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                      
