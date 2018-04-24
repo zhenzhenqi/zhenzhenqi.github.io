@@ -64,7 +64,7 @@ window.addEventListener('load', function() {
     LoadYanText();
 
     //create speech bubble
-     speechBubble = document.createElement('div');
+    speechBubble = document.createElement('div');
     container.appendChild(speechBubble);
     speechBubble.id = "speech-bubble"; //stylize it in css
     speechBubbleContent = document.createElement('p');
@@ -98,6 +98,8 @@ window.addEventListener('load', function() {
         1,
         10000);
     camera.position.z = 200;
+    camera.position.x = -20;
+    camera.position.y = 10;
     camera.target = new THREE.Vector3(0, 0, 0);
     scene.add(camera);
 
@@ -196,7 +198,7 @@ function PlaySound(){
 //                speechBubble.style.top = "50vh";
 //            	speechBubble.style.left = "54vw";
                 speechBubble.style.top = "50vh";
-            	speechBubble.style.left = "44vw";
+            	speechBubble.style.left = "54vw";
                 speechBubbleContent.style.top = "auto";
                 speechBubbleContent.style.right = 0;
                 speechBubbleContent.style.left = "auto";
@@ -204,11 +206,11 @@ function PlaySound(){
                 speechBubbleContent.style.borderRadius = "100px 100px 0px 100px";
                 break;
             case 1:
-                //bottom left of blob
+                //bottom right of blob
 //                speechBubble.style.top = "65vh";
 //            	speechBubble.style.left = "54vw";
                 speechBubble.style.top = "65vh";
-            	speechBubble.style.left = "44vw";
+            	speechBubble.style.left = "57vw";
                 speechBubbleContent.style.top = 0;
                 speechBubbleContent.style.right = 0;
                 speechBubbleContent.style.left = "auto";
@@ -220,7 +222,7 @@ function PlaySound(){
 //                speechBubble.style.top = "45vh";
 //            	speechBubble.style.left = "65vw";
                   speechBubble.style.top = "43vh";
-            	speechBubble.style.left = "53vw";
+            	speechBubble.style.left = "63vw";
                 speechBubbleContent.style.top = 0;
                 speechBubbleContent.style.right = "auto";
                 speechBubbleContent.style.left = 0;
