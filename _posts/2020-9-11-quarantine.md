@@ -3,8 +3,8 @@ layout: default
 title:  "quarantinediary[dot]ai"
 category: art
 tags: computation javascript netart
-shortcode: quarantinediary
-permalink: quarantinediary
+shortcode: quarantine
+permalink: quarantine
 brief: An online diary inspired by COVID19, jointly shaped by the author maker and audience player.
 ---
 <div class="content-container label-add-border" id="lightcubes">
