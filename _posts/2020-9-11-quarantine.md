@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "quarantinediary.ai"
+title:  "quarantinediary[dot]ai"
 category: art
 tags: computation javascript netart
 shortcode: quarantinediary
